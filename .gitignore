@@ -1,4 +1,6 @@
 bullet/CMakeCache.txt
+imagemagick/Makefile
+*.lo
 *.o
 *.out
 *.a

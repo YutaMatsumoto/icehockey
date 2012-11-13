@@ -67,32 +67,15 @@ IMLIBDIR=-L$(IMROOT)/Magick++/lib/.libs -L$(IMROOT)/magick/.libs -L$(IMROOT)/uti
 CC=g++
 CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
-# Aggregation 
-# Libs
-	# LPATH=-Wl,-rpath=lib # embed dynamic library (in ./lib) references into executable
-LIBS= -lglut -lGLEW -lGL -lGLU -lassimp $(BSD) $(BSC) $(BSL) $(BSS) $(IMLIBS)
-LIBDIR = $(LIBDIRASSIMP) $(IMLIBDIR)
-# Include Headers
-INCLUDEDIR= -I./assimp/ -Ibullet/src -I./assimp/include/assimp $(ASSIMPINCLUDE) $(IMINCLUDE) -Isrc 
-
-# Bullet Library Compilation
-$(BSD) $(BSC) $(BSL) $(BSS) :
-	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
-
-# Make Debug
-makedebug : 
-	@echo "ImageMatickRoot=$(IMROOT)"
-	@echo "PKG_CONFIG_PATH=$(PKG_CONFIG_PATH)"
-	@echo "IMCFG="$(IMCFG)
-	@echo "IMCFGLAST="$(IMCFGLAST)
-	@echo "IMLIB="$(IMLIB)
-	@echo "LD_LIBRARY_PATH="$(LD_LIBRARY_PATH)
-
-
-
 ## Make Main
 # $(IMCFG) 
 bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
+	if [ ! -r "$(IMROOT)/Makefile" ] ; then\
+		echo "IMROOT Makefile does not exist";\
+		cd $(IMROOT); ./configure ; make;\
+	else\
+		echo "IMROOT Makefile exists";\
+	fi
 	$(CC) $(LIBDIR) $(INCLUDEDIR) $(CXXFLAGS) $^ $(LIBS) -o $@ # $(IMCFGLAST) 
 
 run2 : bin/j7.out
@@ -119,6 +102,32 @@ bin/lighting_technique.o : src/lighting_technique.cpp
 
 bin/math_3d.o : src/math_3d.cpp
 	$(CC) -c $^ -o $@ 
+
+# Aggregation 
+# Libs
+	# LPATH=-Wl,-rpath=lib # embed dynamic library (in ./lib) references into executable
+LIBS= -lglut -lGLEW -lGL -lGLU -lassimp $(BSD) $(BSC) $(BSL) $(BSS) $(IMLIBS)
+LIBDIR = $(LIBDIRASSIMP) $(IMLIBDIR)
+# Include Headers
+INCLUDEDIR= -I./assimp/ -Ibullet/src -I./assimp/include/assimp $(ASSIMPINCLUDE) $(IMINCLUDE) -Isrc 
+
+# Bullet Library Compilation
+$(BSD) $(BSC) $(BSL) $(BSS) :
+	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
+
+# Make Debug
+makedebug : 
+	@echo "ImageMatickRoot=$(IMROOT)"
+	@echo "PKG_CONFIG_PATH=$(PKG_CONFIG_PATH)"
+	@echo "IMCFG="$(IMCFG)
+	@echo "IMCFGLAST="$(IMCFGLAST)
+	@echo "IMLIB="$(IMLIB)
+	@echo "LD_LIBRARY_PATH="$(LD_LIBRARY_PATH)
+
+IMMakefile = $(shell readlink -f imagemagick/Makefile)
+ImageMagick : $(IMMakefile)
+	cd $(IMROOT) ; ./configure && make ; cd ..
+
 
 
 

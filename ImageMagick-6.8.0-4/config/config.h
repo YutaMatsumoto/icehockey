@@ -36,7 +36,7 @@
 #define CONFIGURE_RELATIVE_PATH "ImageMagick"
 
 /* Define if you have DJVU library */
-#define DJVU_DELEGATE 1
+/* #undef DJVU_DELEGATE */
 
 /* Directory where ImageMagick documents live. */
 #define DOCUMENTATION_PATH "/usr/local/share/doc/ImageMagick-6.8.0/"
@@ -51,7 +51,7 @@
 #define EXECUTABLE_PATH "/usr/local/bin/"
 
 /* Define if you have FFTW library */
-#define FFTW_DELEGATE 1
+/* #undef FFTW_DELEGATE */
 
 /* Location of filter modules */
 #define FILTER_PATH "/usr/local/lib/ImageMagick-6.8.0/modules-Q16/filters/"
@@ -60,7 +60,7 @@
 #define FILTER_RELATIVE_PATH "ImageMagick-6.8.0/modules-Q16/filters"
 
 /* Define if you have FONTCONFIG library */
-#define FONTCONFIG_DELEGATE 1
+/* #undef FONTCONFIG_DELEGATE */
 
 /* Define if you have FlashPIX library */
 /* #undef FPX_DELEGATE */
@@ -253,7 +253,7 @@
 /* #undef HAVE_LCMS2_LCMS2_H */
 
 /* Define if you have the <lcms.h> header file. */
-#define HAVE_LCMS_H 1
+/* #undef HAVE_LCMS_H */
 
 /* Define if you have the <lcms/lcms.h> header file. */
 /* #undef HAVE_LCMS_LCMS_H */
@@ -574,31 +574,31 @@
 #define HAVE_TEMPNAM 1
 
 /* Define to 1 if you have the <tiffconf.h> header file. */
-#define HAVE_TIFFCONF_H 1
+/* #undef HAVE_TIFFCONF_H */
 
 /* Define to 1 if you have the `TIFFIsBigEndian' function. */
-#define HAVE_TIFFISBIGENDIAN 1
+/* #undef HAVE_TIFFISBIGENDIAN */
 
 /* Define to 1 if you have the `TIFFIsCODECConfigured' function. */
-#define HAVE_TIFFISCODECCONFIGURED 1
+/* #undef HAVE_TIFFISCODECCONFIGURED */
 
 /* Define to 1 if you have the `TIFFMergeFieldInfo' function. */
-#define HAVE_TIFFMERGEFIELDINFO 1
+/* #undef HAVE_TIFFMERGEFIELDINFO */
 
 /* Define to 1 if you have the `TIFFReadEXIFDirectory' function. */
-#define HAVE_TIFFREADEXIFDIRECTORY 1
+/* #undef HAVE_TIFFREADEXIFDIRECTORY */
 
 /* Define to 1 if you have the `TIFFSetErrorHandlerExt' function. */
-#define HAVE_TIFFSETERRORHANDLEREXT 1
+/* #undef HAVE_TIFFSETERRORHANDLEREXT */
 
 /* Define to 1 if you have the `TIFFSetTagExtender' function. */
-#define HAVE_TIFFSETTAGEXTENDER 1
+/* #undef HAVE_TIFFSETTAGEXTENDER */
 
 /* Define to 1 if you have the `TIFFSetWarningHandlerExt' function. */
-#define HAVE_TIFFSETWARNINGHANDLEREXT 1
+/* #undef HAVE_TIFFSETWARNINGHANDLEREXT */
 
 /* Define to 1 if you have the `TIFFSwabArrayOfTriples' function. */
-#define HAVE_TIFFSWABARRAYOFTRIPLES 1
+/* #undef HAVE_TIFFSWABARRAYOFTRIPLES */
 
 /* Define to 1 if you have the `times' function. */
 #define HAVE_TIMES 1
@@ -720,13 +720,13 @@
 /* #undef JBIG_DELEGATE */
 
 /* Define if you have JPEG version 2 "Jasper" library */
-#define JP2_DELEGATE 1
+/* #undef JP2_DELEGATE */
 
 /* Define if you have JPEG library */
 #define JPEG_DELEGATE 1
 
 /* Define if you have LCMS (v1.11 or later) library */
-#define LCMS_DELEGATE 1
+/* #undef LCMS_DELEGATE */
 
 /* Directory where architecture-dependent files live. */
 #define LIBRARY_PATH "/usr/local/lib/ImageMagick-6.8.0/"
@@ -736,7 +736,7 @@
 #define LIBRARY_RELATIVE_PATH "ImageMagick-6.8.0"
 
 /* Define if you have LQR library */
-#define LQR_DELEGATE 1
+/* #undef LQR_DELEGATE */
 
 /* Define if using libltdl to support dynamically loadable modules */
 /* #undef LTDL_DELEGATE */
@@ -752,13 +752,13 @@
 /* #undef MAGICK_FONT_PATH */
 
 /* Target Host CPU */
-#define MAGICK_TARGET_CPU i686
+#define MAGICK_TARGET_CPU x86_64
 
 /* Target Host OS */
 #define MAGICK_TARGET_OS linux-gnu
 
 /* Target Host Vendor */
-#define MAGICK_TARGET_VENDOR pc
+#define MAGICK_TARGET_VENDOR unknown
 
 /* Magick API method prefix */
 /* #undef NAMESPACE_PREFIX */
@@ -770,7 +770,7 @@
 /* #undef NO_MINUS_C_MINUS_O */
 
 /* Define if you have OPENEXR library */
-#define OPENEXR_DELEGATE 1
+/* #undef OPENEXR_DELEGATE */
 
 /* Name of package */
 #define PACKAGE "ImageMagick"
@@ -794,10 +794,10 @@
 #define PACKAGE_VERSION "6.8.0-4"
 
 /* Define if you have PANGOCAIRO library */
-#define PANGOCAIRO_DELEGATE 1
+/* #undef PANGOCAIRO_DELEGATE */
 
 /* Define if you have PANGO library */
-#define PANGO_DELEGATE 1
+/* #undef PANGO_DELEGATE */
 
 /* Define if you have PNG library */
 #define PNG_DELEGATE 1
@@ -848,7 +848,7 @@
 #define SIZEOF_SIGNED_INT 4
 
 /* The size of `signed long', as computed by sizeof. */
-#define SIZEOF_SIGNED_LONG 4
+#define SIZEOF_SIGNED_LONG 8
 
 /* The size of `signed long long', as computed by sizeof. */
 #define SIZEOF_SIGNED_LONG_LONG 8
@@ -857,19 +857,19 @@
 #define SIZEOF_SIGNED_SHORT 2
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 4
+#define SIZEOF_SIZE_T 8
 
 /* The size of `ssize_t', as computed by sizeof. */
-#define SIZEOF_SSIZE_T 4
+#define SIZEOF_SSIZE_T 8
 
 /* The size of `unsigned int', as computed by sizeof. */
 #define SIZEOF_UNSIGNED_INT 4
 
 /* The size of `unsigned int*', as computed by sizeof. */
-#define SIZEOF_UNSIGNED_INTP 4
+#define SIZEOF_UNSIGNED_INTP 8
 
 /* The size of `unsigned long', as computed by sizeof. */
-#define SIZEOF_UNSIGNED_LONG 4
+#define SIZEOF_UNSIGNED_LONG 8
 
 /* The size of `unsigned long long', as computed by sizeof. */
 #define SIZEOF_UNSIGNED_LONG_LONG 8
@@ -890,7 +890,7 @@
 #define THREAD_SUPPORT 1
 
 /* Define if you have TIFF library */
-#define TIFF_DELEGATE 1
+/* #undef TIFF_DELEGATE */
 
 /* Define to 1 if you can safely include both <sys/time.h> and <time.h>. */
 #define TIME_WITH_SYS_TIME 1
@@ -957,7 +957,7 @@
 #define X11_DELEGATE 1
 
 /* Define if you have XML library */
-#define XML_DELEGATE 1
+/* #undef XML_DELEGATE */
 
 /* Define to 1 if the X Window System is missing or not being used. */
 /* #undef X_DISPLAY_MISSING */
@@ -974,7 +974,7 @@
 #endif
 
 /* Number of bits in a file offset, on hosts where this is settable. */
-#define _FILE_OFFSET_BITS 64
+/* #undef _FILE_OFFSET_BITS */
 
 /* enable run-time bounds-checking */
 /* #undef _FORTIFY_SOURCE */
