@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531
+# Install script for directory: /tmp/a/b/icehockey/bullet-2.80-rev2531
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,14 +35,14 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/lib/pkgconfig/bullet.pc")
-FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/tmp/a/icehockey/bullet-2.80-rev2531/bullet.pc")
+FILE(INSTALL DESTINATION "/usr/local/lib/pkgconfig" TYPE FILE FILES "/tmp/a/b/icehockey/bullet-2.80-rev2531/bullet.pc")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/tmp/a/icehockey/bullet-2.80-rev2531/Demos/cmake_install.cmake")
-  INCLUDE("/tmp/a/icehockey/bullet-2.80-rev2531/Extras/cmake_install.cmake")
-  INCLUDE("/tmp/a/icehockey/bullet-2.80-rev2531/src/cmake_install.cmake")
+  INCLUDE("/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/cmake_install.cmake")
+  INCLUDE("/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/cmake_install.cmake")
+  INCLUDE("/tmp/a/b/icehockey/bullet-2.80-rev2531/src/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -52,7 +52,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/tmp/a/icehockey/bullet-2.80-rev2531/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/tmp/a/b/icehockey/bullet-2.80-rev2531/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/tmp/a/icehockey/bullet-2.80-rev2531/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/tmp/a/b/icehockey/bullet-2.80-rev2531/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

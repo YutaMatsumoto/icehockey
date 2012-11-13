@@ -67,20 +67,16 @@ IMLIBDIR=-L$(IMROOT)/Magick++/lib/.libs -L$(IMROOT)/magick/.libs -L$(IMROOT)/uti
 CC=g++
 CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
-# Bullet Library Compilation
-$(BSD) $(BSC) $(BSL) $(BSS) :
-	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
-
-
 ## Make Main
 # $(IMCFG) 
 bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
-	if [ ! -r "$(IMROOT)/Makefile" ] ; then\
-		echo "IMROOT Makefile does not exist";\
-		cd $(IMROOT); ./configure ; make;\
-	else\
-		echo "IMROOT Makefile exists";\
-	fi
+	# if [ ! -r "$(IMROOT)/Makefile" ] ; then\
+	# 	echo "IMROOT Makefile does not exist";\
+	# 	cd $(IMROOT); ./configure ; make;\
+	# else\
+	# 	echo "IMROOT Makefile exists";\
+	# fi
+	cd $(IMROOT); ./configure ; make;\
 	$(CC) $(LIBDIR) $(INCLUDEDIR) $(CXXFLAGS) $^ $(LIBS) -o $@ # $(IMCFGLAST) 
 
 run2 : bin/j7.out
@@ -88,6 +84,11 @@ run2 : bin/j7.out
 
 run : bin/j7.out
 	. $(INITSCRIPT) && ./$< $(BALL) $(BOARD) $(VSHADER) $(FSHADER)
+
+# Bullet Library Compilation
+$(BSD) $(BSC) $(BSL) $(BSS) :
+	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
+
 
 # Objects
 

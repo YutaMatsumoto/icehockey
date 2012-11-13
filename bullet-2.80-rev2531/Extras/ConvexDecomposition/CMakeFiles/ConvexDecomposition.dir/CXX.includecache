@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 ConvexBuilder.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.h
 meshvolume.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 bestfit.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 assert.h
 -
 cd_hull.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 fitsphere.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
 bestfitobb.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexBuilder.h
 ConvexDecomposition.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
 vlookup.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
 LinearMath/btAlignedObjectArray.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -44,31 +44,31 @@ string.h
 assert.h
 -
 ConvexDecomposition.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
 cd_vector.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
 cd_hull.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 bestfit.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 planetri.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
 vlookup.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
 splitplane.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
 meshvolume.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 concavity.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
 bestfitobb.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 fitsphere.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
 memory.h
 -
 string.h
@@ -76,11 +76,11 @@ string.h
 stdio.h
 -
 LinearMath/btAlignedObjectArray.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/LinearMath/btAlignedObjectArray.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -92,13 +92,13 @@ assert.h
 math.h
 -
 bestfit.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -110,15 +110,15 @@ math.h
 assert.h
 -
 bestfitobb.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfitobb.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -132,11 +132,11 @@ math.h
 float.h
 -
 cd_hull.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
 math.h
 -
 float.h
@@ -144,7 +144,7 @@ float.h
 vector
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.cpp
 stdio.h
 -
 stdlib.h
@@ -156,17 +156,17 @@ assert.h
 ctype.h
 -
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 cd_wavefront.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
 vector
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -178,25 +178,25 @@ assert.h
 vector
 -
 concavity.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
 raytri.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
 bestfit.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 cd_hull.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 meshvolume.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 cd_vector.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
 splitplane.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
 ConvexDecomposition.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/concavity.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.cpp
 stdio.h
 -
 stdlib.h
@@ -208,13 +208,13 @@ assert.h
 math.h
 -
 fitsphere.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/fitsphere.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -226,19 +226,19 @@ assert.h
 math.h
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 meshvolume.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -248,13 +248,13 @@ string.h
 assert.h
 -
 planetri.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -266,13 +266,13 @@ assert.h
 math.h
 -
 raytri.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/raytri.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -286,29 +286,29 @@ float.h
 math.h
 -
 splitplane.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
 ConvexDecomposition.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/ConvexDecomposition.h
 cd_vector.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_vector.h
 cd_hull.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_hull.h
 cd_wavefront.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/cd_wavefront.h
 bestfit.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/bestfit.h
 planetri.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/planetri.h
 vlookup.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
 meshvolume.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/meshvolume.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/splitplane.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.cpp
 float_math.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/float_math.h
 stdio.h
 -
 stdlib.h
@@ -324,9 +324,9 @@ map
 set
 -
 vlookup.h
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition/vlookup.h
 
 src/LinearMath/btAlignedAllocator.h
 btScalar.h

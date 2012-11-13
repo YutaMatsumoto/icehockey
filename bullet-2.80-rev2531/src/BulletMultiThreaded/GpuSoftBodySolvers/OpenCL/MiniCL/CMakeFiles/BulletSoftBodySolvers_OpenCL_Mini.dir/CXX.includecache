@@ -6,127 +6,127 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateFixedVertexPositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateFixedVertexPositions.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
 MiniCL/cl.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
 OpenCL/OpenCL.h
 -
 CL/cl.h
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
 BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
 btSoftBodySolverBuffer_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
 BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
 btSoftBodySolverBuffer_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
 BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletMultiThreaded/GpuSoftBodySolvers/Shared/btSoftBodySolverData.h
 btSoftBodySolverBuffer_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
 BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h
 vectormath/vmInclude.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
 stdio.h
 -
 btSoftBodySolver_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
 BulletSoftBody/btSoftBodySolverVertexBuffer.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolverVertexBuffer.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolverVertexBuffer.h
 BulletSoftBody/btSoftBody.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBody.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBody.h
 BulletSoftBody/btSoftBodyInternals.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodyInternals.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodyInternals.h
 BulletCollision/CollisionShapes/btCapsuleShape.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btCapsuleShape.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btCapsuleShape.h
 BulletCollision/CollisionShapes/btSphereShape.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btSphereShape.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletCollision/CollisionShapes/btSphereShape.h
 LinearMath/btQuickprof.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/LinearMath/btQuickprof.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/LinearMath/btQuickprof.h
 limits.h
 -
 MiniCL/cl.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cl.h
 OpenCL/OpenCL.h
 -
 CL/cl.h
 -
 OpenCLC10/PrepareLinks.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/PrepareLinks.cl
 OpenCLC10/UpdatePositionsFromVelocities.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositionsFromVelocities.cl
 OpenCLC10/SolvePositions.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolvePositions.cl
 OpenCLC10/UpdateNodes.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNodes.cl
 OpenCLC10/UpdatePositions.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdatePositions.cl
 OpenCLC10/UpdateConstants.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateConstants.cl
 OpenCLC10/Integrate.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/Integrate.cl
 OpenCLC10/ApplyForces.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/ApplyForces.cl
 OpenCLC10/UpdateFixedVertexPositions.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateFixedVertexPositions.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateFixedVertexPositions.cl
 OpenCLC10/UpdateNormals.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/UpdateNormals.cl
 OpenCLC10/VSolveLinks.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/VSolveLinks.cl
 OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/OpenCLC10/SolveCollisionsAndUpdateVelocities.cl
 
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
 stddef.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/stddef.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/stddef.h
 vectormath/vmInclude.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/vectormath/vmInclude.h
 BulletSoftBody/btSoftBodySolvers.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolvers.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBodySolvers.h
 BulletSoftBody/btSoftBody.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBody.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/BulletSoftBody/btSoftBody.h
 btSoftBodySolverBuffer_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverBuffer_OpenCL.h
 btSoftBodySolverLinkData_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverLinkData_OpenCL.h
 btSoftBodySolverVertexData_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexData_OpenCL.h
 btSoftBodySolverTriangleData_OpenCL.h
-/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverTriangleData_OpenCL.h
 
 src/BulletCollision/BroadphaseCollision/btBroadphaseInterface.h
 btBroadphaseProxy.h

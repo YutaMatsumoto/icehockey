@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/Demos/HelloWorld
+# Install script for directory: /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/HelloWorld
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/main.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/main.cpp
 stdio.h
 -
 BulletMultiThreaded/PlatformDefinitions.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/PlatformDefinitions.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/PlatformDefinitions.h
 BulletMultiThreaded/PosixThreadSupport.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/PosixThreadSupport.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/PosixThreadSupport.h
 BulletMultiThreaded/Win32ThreadSupport.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/Win32ThreadSupport.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ThreadingDemo/BulletMultiThreaded/Win32ThreadSupport.h
 
 src/BulletMultiThreaded/PlatformDefinitions.h
 LinearMath/btScalar.h

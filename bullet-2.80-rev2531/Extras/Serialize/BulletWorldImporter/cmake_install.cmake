@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter
+# Install script for directory: /tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

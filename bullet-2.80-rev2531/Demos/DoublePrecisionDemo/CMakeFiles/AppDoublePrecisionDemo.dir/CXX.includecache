@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.cpp
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.cpp
 GL_Simplex1to4.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GL_Simplex1to4.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GL_Simplex1to4.h
 btBulletCollisionCommon.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/btBulletCollisionCommon.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/btBulletCollisionCommon.h
 LinearMath/btIDebugDraw.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/LinearMath/btIDebugDraw.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/LinearMath/btIDebugDraw.h
 GLDebugFont.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GLDebugFont.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GLDebugFont.h
 GL_ShapeDrawer.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GL_ShapeDrawer.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GL_ShapeDrawer.h
 DoublePrecisionDemo.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.h
 GlutStuff.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GlutStuff.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GLDebugDrawer.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GLDebugDrawer.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/DoublePrecisionDemo.h
 GlutDemoApplication.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GlutDemoApplication.h
+/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/DoublePrecisionDemo/GlutDemoApplication.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

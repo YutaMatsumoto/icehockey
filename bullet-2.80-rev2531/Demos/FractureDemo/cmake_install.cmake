@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/Demos/FractureDemo
+# Install script for directory: /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/FractureDemo
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
