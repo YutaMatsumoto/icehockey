@@ -1,21 +1,21 @@
 # Test environment
-top_srcdir='/tmp/icehockey/imagemagick'
-top_builddir='/tmp/icehockey/imagemagick'
+top_srcdir='/tmp/icehockey/ImageMagick-6.8.0-4'
+top_builddir='/tmp/icehockey/ImageMagick-6.8.0-4'
 
 set -a
-COMPARE="/tmp/icehockey/imagemagick/utilities/compare"
-COMPOSITE="/tmp/icehockey/imagemagick/utilities/composite"
-CONJURE="/tmp/icehockey/imagemagick/utilities/conjure"
-CONVERT="/tmp/icehockey/imagemagick/utilities/convert"
-DISPLAY="/tmp/icehockey/imagemagick/utilities/display"
-IDENTIFY="/tmp/icehockey/imagemagick/utilities/identify"
-MONTAGE="/tmp/icehockey/imagemagick/utilities/montage" 
-VALIDATE="/tmp/icehockey/imagemagick/tests/validate"
-DRAWTEST="/tmp/icehockey/imagemagick/tests/drawtest"
-WANDTEST="/tmp/icehockey/imagemagick/tests/wandtest"
-LD_LIBRARY_PATH="/tmp/icehockey/imagemagick/magick/.libs:${LD_LIBRARY_PATH}"
-MAGICK_CODER_MODULE_PATH='/tmp/icehockey/imagemagick/coders'
-MAGICK_CONFIGURE_PATH='/tmp/icehockey/imagemagick/config:/tmp/icehockey/imagemagick/config'
-MAGICK_FILTER_MODULE_PATH='/tmp/icehockey/imagemagick/filters'
-PATH="/tmp/icehockey/imagemagick/utilities:${PATH}"
+COMPARE="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/compare"
+COMPOSITE="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/composite"
+CONJURE="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/conjure"
+CONVERT="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/convert"
+DISPLAY="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/display"
+IDENTIFY="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/identify"
+MONTAGE="/tmp/icehockey/ImageMagick-6.8.0-4/utilities/montage" 
+VALIDATE="/tmp/icehockey/ImageMagick-6.8.0-4/tests/validate"
+DRAWTEST="/tmp/icehockey/ImageMagick-6.8.0-4/tests/drawtest"
+WANDTEST="/tmp/icehockey/ImageMagick-6.8.0-4/tests/wandtest"
+LD_LIBRARY_PATH="/tmp/icehockey/ImageMagick-6.8.0-4/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/coders'
+MAGICK_CONFIGURE_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/config:/tmp/icehockey/ImageMagick-6.8.0-4/config'
+MAGICK_FILTER_MODULE_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/filters'
+PATH="/tmp/icehockey/ImageMagick-6.8.0-4/utilities:${PATH}"
 set +a

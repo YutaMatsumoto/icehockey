@@ -70,10 +70,16 @@ CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
 ## Make Main
 # $(IMCFG) 
-bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS) $(IMMAKEFILE)
+J7DEP = src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS) 
+bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
+	@if [ ! -e $(IMMAKEFILE) ] ; then \
+		make $(IMMAKEFILE) ;\
+	else \
+		echo -n ""; \
+	fi
 	$(CC) $(LIBDIR) $(INCLUDEDIR) $(CXXFLAGS) $^ $(LIBS) -o $@ # $(IMCFGLAST) 
 
-$(IMMAKEFILE) :
+$(IMMAKEFILE) ImageMagickLib :
 	cd $(IMROOT); ./configure ; make;
 
 run2 : bin/j7.out

@@ -437,7 +437,7 @@ Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/tmp/icehockey/imagemagick'
+ac_pwd='/tmp/icehockey/ImageMagick-6.8.0-4'
 srcdir='.'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/bin/mkdir -p'
@@ -576,7 +576,7 @@ build='x86_64-unknown-linux-gnu'
 build_os='linux-gnu'
 NM='/usr/bin/nm -B'
 LN_S='ln -s'
-max_cmd_len='1572864'
+max_cmd_len='3458764513820540925'
 ac_objext='o'
 exeext=''
 lt_unset='unset'
@@ -1202,7 +1202,7 @@ S["PTHREAD_CC"]="gcc -std=gnu99 -std=gnu99"
 S["ax_pthread_config"]=""
 S["SHAREARCH_DIR"]="/usr/local/lib"
 S["INCLUDEARCH_DIR"]="/usr/local/include"
-S["WinPathScript"]="/tmp/icehockey/imagemagick/winpath.sh"
+S["WinPathScript"]="/tmp/icehockey/ImageMagick-6.8.0-4/winpath.sh"
 S["USING_CL_FALSE"]=""
 S["USING_CL_TRUE"]="#"
 S["CYGWIN_BUILD_FALSE"]=""
@@ -1245,10 +1245,10 @@ S["LDFLAGS"]="-L/usr/lib"
 S["CFLAGS"]="-fopenmp -g -O2 -Wall -pthread"
 S["CC"]="gcc -std=gnu99 -std=gnu99"
 S["DIRSEP"]=":"
-S["MAGICK_FILTER_MODULE_PATH"]="/tmp/icehockey/imagemagick/filters"
-S["MAGICK_CONFIGURE_BUILD_PATH"]="/tmp/icehockey/imagemagick/config"
-S["MAGICK_CONFIGURE_SRC_PATH"]="/tmp/icehockey/imagemagick/config"
-S["MAGICK_CODER_MODULE_PATH"]="/tmp/icehockey/imagemagick/coders"
+S["MAGICK_FILTER_MODULE_PATH"]="/tmp/icehockey/ImageMagick-6.8.0-4/filters"
+S["MAGICK_CONFIGURE_BUILD_PATH"]="/tmp/icehockey/ImageMagick-6.8.0-4/config"
+S["MAGICK_CONFIGURE_SRC_PATH"]="/tmp/icehockey/ImageMagick-6.8.0-4/config"
+S["MAGICK_CODER_MODULE_PATH"]="/tmp/icehockey/ImageMagick-6.8.0-4/coders"
 S["MAN_DIR"]="/usr/local/share/man"
 S["INFO_DIR"]="/usr/local/share/info"
 S["PERSISTINCLUDE_DIR"]="/usr/include"
@@ -1282,12 +1282,12 @@ S["mkdir_p"]="$(MKDIR_P)"
 S["MKDIR_P"]="/bin/mkdir -p"
 S["INSTALL_STRIP_PROGRAM"]="$(install_sh) -c -s"
 S["STRIP"]="strip"
-S["install_sh"]="${SHELL} /tmp/icehockey/imagemagick/config/install-sh"
-S["MAKEINFO"]="${SHELL} /tmp/icehockey/imagemagick/config/missing --run makeinfo"
-S["AUTOHEADER"]="${SHELL} /tmp/icehockey/imagemagick/config/missing --run autoheader"
-S["AUTOMAKE"]="${SHELL} /tmp/icehockey/imagemagick/config/missing --run automake-1.12"
-S["AUTOCONF"]="${SHELL} /tmp/icehockey/imagemagick/config/missing --run autoconf"
-S["ACLOCAL"]="${SHELL} /tmp/icehockey/imagemagick/config/missing --run aclocal-1.12"
+S["install_sh"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/install-sh"
+S["MAKEINFO"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/missing --run makeinfo"
+S["AUTOHEADER"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/missing --run autoheader"
+S["AUTOMAKE"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/missing --run automake-1.12"
+S["AUTOCONF"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/missing --run autoconf"
+S["ACLOCAL"]="${SHELL} /tmp/icehockey/ImageMagick-6.8.0-4/config/missing --run aclocal-1.12"
 S["VERSION"]="6.8.0-4"
 S["PACKAGE"]="ImageMagick"
 S["CYGPATH_W"]="echo"
