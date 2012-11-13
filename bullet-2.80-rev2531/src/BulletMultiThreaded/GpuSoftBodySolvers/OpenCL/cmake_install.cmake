@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL
+# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cmake_install.cmake")
+  INCLUDE("/tmp/a/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 

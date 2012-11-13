@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/Demos/CollisionInterfaceDemo
+# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/Demos/CollisionInterfaceDemo
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

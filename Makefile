@@ -67,6 +67,11 @@ IMLIBDIR=-L$(IMROOT)/Magick++/lib/.libs -L$(IMROOT)/magick/.libs -L$(IMROOT)/uti
 CC=g++
 CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
+# Bullet Library Compilation
+$(BSD) $(BSC) $(BSL) $(BSS) :
+	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
+
+
 ## Make Main
 # $(IMCFG) 
 bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
@@ -110,10 +115,6 @@ LIBS= -lglut -lGLEW -lGL -lGLU -lassimp $(BSD) $(BSC) $(BSL) $(BSS) $(IMLIBS)
 LIBDIR = $(LIBDIRASSIMP) $(IMLIBDIR)
 # Include Headers
 INCLUDEDIR= -I./assimp/ -Ibullet/src -I./assimp/include/assimp $(ASSIMPINCLUDE) $(IMINCLUDE) -Isrc 
-
-# Bullet Library Compilation
-$(BSD) $(BSC) $(BSL) $(BSS) :
-	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
 
 # Make Debug
 makedebug : 

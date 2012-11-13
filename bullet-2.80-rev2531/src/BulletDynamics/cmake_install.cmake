@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/src/BulletDynamics
+# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/src/BulletDynamics
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,18 +33,18 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/icehockey/bullet-2.80-rev2531/src/BulletDynamics/libBulletDynamics.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/a/icehockey/bullet-2.80-rev2531/src/BulletDynamics/libBulletDynamics.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/bullet/BulletDynamics")
-FILE(INSTALL DESTINATION "/usr/local/include/bullet" TYPE DIRECTORY FILES "/tmp/icehockey/bullet-2.80-rev2531/src/BulletDynamics" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE)
+FILE(INSTALL DESTINATION "/usr/local/include/bullet" TYPE DIRECTORY FILES "/tmp/a/icehockey/bullet-2.80-rev2531/src/BulletDynamics" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/bullet/BulletDynamics/btBulletDynamicsCommon.h")
-FILE(INSTALL DESTINATION "/usr/local/include/bullet/BulletDynamics" TYPE FILE FILES "/tmp/icehockey/bullet-2.80-rev2531/src/BulletDynamics/../btBulletDynamicsCommon.h")
+FILE(INSTALL DESTINATION "/usr/local/include/bullet/BulletDynamics" TYPE FILE FILES "/tmp/a/icehockey/bullet-2.80-rev2531/src/BulletDynamics/../btBulletDynamicsCommon.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition
+# Install script for directory: /tmp/a/icehockey/bullet-2.80-rev2531/Extras/ConvexDecomposition
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
