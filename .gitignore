@@ -1,0 +1,7 @@
+bullet/CMakeCache.txt
+*.o
+*.out
+*.a
+*.a.*
+*.so
+*.so.*

@@ -1,0 +1,21 @@
+# Test environment
+top_srcdir='/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4'
+top_builddir='/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4'
+
+set -a
+COMPARE="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/compare"
+COMPOSITE="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/composite"
+CONJURE="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/conjure"
+CONVERT="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/convert"
+DISPLAY="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/display"
+IDENTIFY="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/identify"
+MONTAGE="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities/montage" 
+VALIDATE="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/tests/validate"
+DRAWTEST="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/tests/drawtest"
+WANDTEST="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/tests/wandtest"
+LD_LIBRARY_PATH="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/magick/.libs:${LD_LIBRARY_PATH}"
+MAGICK_CODER_MODULE_PATH='/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/coders'
+MAGICK_CONFIGURE_PATH='/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/config:/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/config'
+MAGICK_FILTER_MODULE_PATH='/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/filters'
+PATH="/tmp/opengl-jikken/hw/ImageMagick-6.8.0-4/utilities:${PATH}"
+set +a
