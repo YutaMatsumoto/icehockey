@@ -6,17 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.cpp
 btGImpactConvexDecompositionShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.h
 BulletCollision/CollisionShapes/btConvexHullShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/BulletCollision/CollisionShapes/btConvexHullShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/BulletCollision/CollisionShapes/btConvexHullShape.h
 ConvexBuilder.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/ConvexBuilder.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/ConvexBuilder.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/btGImpactConvexDecompositionShape.h
 BulletCollision/Gimpact/btGImpactShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/BulletCollision/Gimpact/btGImpactShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/GIMPACTUtils/BulletCollision/Gimpact/btGImpactShape.h
 
 Extras/ConvexDecomposition/ConvexBuilder.h
 ConvexDecomposition.h

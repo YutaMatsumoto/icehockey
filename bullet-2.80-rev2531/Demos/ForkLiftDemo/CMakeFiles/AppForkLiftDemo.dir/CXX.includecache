@@ -6,43 +6,43 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/btBulletDynamicsCommon.h
 BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletCollision/CollisionShapes/btHeightfieldTerrainShape.h
 GLDebugFont.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugFont.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugFont.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugDrawer.h
 stdio.h
 -
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutStuff.h
 ForkLiftDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
 BulletDynamics/Vehicle/btRaycastVehicle.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/Vehicle/btRaycastVehicle.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/Vehicle/btRaycastVehicle.h
 BulletDynamics/ConstraintSolver/btHingeConstraint.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/ConstraintSolver/btHingeConstraint.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/ConstraintSolver/btHingeConstraint.h
 BulletDynamics/ConstraintSolver/btSliderConstraint.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/ConstraintSolver/btSliderConstraint.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/BulletDynamics/ConstraintSolver/btSliderConstraint.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutDemoApplication.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/main.cpp
 ForkLiftDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/ForkLiftDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ForkLiftDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

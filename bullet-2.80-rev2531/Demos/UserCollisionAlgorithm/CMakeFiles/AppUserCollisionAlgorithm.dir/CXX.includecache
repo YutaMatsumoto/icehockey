@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/btBulletDynamicsCommon.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GLDebugDrawer.h
 UserCollisionAlgorithm.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GlutStuff.h
 BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/BulletCollision/CollisionDispatch/btSphereSphereCollisionAlgorithm.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/UserCollisionAlgorithm.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/UserCollisionAlgorithm/GlutDemoApplication.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

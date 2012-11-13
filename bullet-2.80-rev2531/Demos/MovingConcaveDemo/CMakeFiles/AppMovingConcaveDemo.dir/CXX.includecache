@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcaveDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcaveDemo.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GlutDemoApplication.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcavePhysicsDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcavePhysicsDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/btBulletDynamicsCommon.h
 ConcaveDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcaveDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/ConcaveDemo.h
 LinearMath/btDefaultMotionState.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btDefaultMotionState.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btDefaultMotionState.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btIDebugDraw.h
 LinearMath/btQuickprof.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btQuickprof.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btQuickprof.h
 LinearMath/btDefaultMotionState.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btDefaultMotionState.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/LinearMath/btDefaultMotionState.h
 BulletCollision/Gimpact/btGImpactShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/BulletCollision/Gimpact/btGImpactShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/BulletCollision/Gimpact/btGImpactShape.h
 BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/BulletCollision/Gimpact/btGImpactCollisionAlgorithm.h
 GLDebugFont.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GLDebugFont.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GLDebugFont.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GLDebugDrawer.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/MovingConcaveDemo/GlutStuff.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

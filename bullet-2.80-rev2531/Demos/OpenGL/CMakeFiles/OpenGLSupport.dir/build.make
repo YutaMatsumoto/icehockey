@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/a/b/icehockey/bullet-2.80-rev2531
+CMAKE_SOURCE_DIR = /tmp/icehockey/bullet-2.80-rev2531
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/a/b/icehockey/bullet-2.80-rev2531
+CMAKE_BINARY_DIR = /tmp/icehockey/bullet-2.80-rev2531
 
 # Include any dependencies generated for this target.
 include Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/depend.make
@@ -48,17 +48,17 @@ include Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o: Demos/OpenGL/GLDebugFont.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GLDebugFont.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GLDebugFont.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GLDebugFont.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp > CMakeFiles/OpenGLSupport.dir/GLDebugFont.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp > CMakeFiles/OpenGLSupport.dir/GLDebugFont.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GLDebugFont.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp -o CMakeFiles/OpenGLSupport.dir/GLDebugFont.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugFont.cpp -o CMakeFiles/OpenGLSupport.dir/GLDebugFont.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o.requires
@@ -71,17 +71,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugFont.o.provides.build: Demos/Op
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o: Demos/OpenGL/GL_DialogDynamicsWorld.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp > CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp > CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp -o CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogDynamicsWorld.cpp -o CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o.requires
@@ -94,17 +94,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogDynamicsWorld.o.provides.buil
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o: Demos/OpenGL/GL_DialogWindow.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp > CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp > CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp -o CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_DialogWindow.cpp -o CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o.requires
@@ -117,17 +117,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_DialogWindow.o.provides.build: Demo
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o: Demos/OpenGL/GL_ShapeDrawer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp > CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp > CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp -o CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_ShapeDrawer.cpp -o CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o.requires
@@ -140,17 +140,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_ShapeDrawer.o.provides.build: Demos
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o: Demos/OpenGL/GL_Simplex1to4.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp > CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp > CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp -o CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GL_Simplex1to4.cpp -o CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o.requires
@@ -163,17 +163,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GL_Simplex1to4.o.provides.build: Demos
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o: Demos/OpenGL/GLDebugDrawer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp > CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp > CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp -o CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GLDebugDrawer.cpp -o CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o.requires
@@ -186,17 +186,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GLDebugDrawer.o.provides.build: Demos/
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o: Demos/OpenGL/RenderTexture.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/RenderTexture.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/RenderTexture.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/RenderTexture.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp > CMakeFiles/OpenGLSupport.dir/RenderTexture.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp > CMakeFiles/OpenGLSupport.dir/RenderTexture.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/RenderTexture.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp -o CMakeFiles/OpenGLSupport.dir/RenderTexture.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/RenderTexture.cpp -o CMakeFiles/OpenGLSupport.dir/RenderTexture.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o.requires
@@ -209,17 +209,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/RenderTexture.o.provides.build: Demos/
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o: Demos/OpenGL/DemoApplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/DemoApplication.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/DemoApplication.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/DemoApplication.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/DemoApplication.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/DemoApplication.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/DemoApplication.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/DemoApplication.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/DemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/DemoApplication.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o.requires
@@ -232,17 +232,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DemoApplication.o.provides.build: Demo
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o: Demos/OpenGL/GlutDemoApplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutDemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o.requires
@@ -255,17 +255,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutDemoApplication.o.provides.build: 
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o: Demos/OpenGL/GlutStuff.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GlutStuff.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/GlutStuff.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/GlutStuff.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp > CMakeFiles/OpenGLSupport.dir/GlutStuff.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp > CMakeFiles/OpenGLSupport.dir/GlutStuff.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/GlutStuff.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp -o CMakeFiles/OpenGLSupport.dir/GlutStuff.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/GlutStuff.cpp -o CMakeFiles/OpenGLSupport.dir/GlutStuff.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o.requires
@@ -278,17 +278,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/GlutStuff.o.provides.build: Demos/Open
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o: Demos/OpenGL/stb_image.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/stb_image.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/stb_image.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/stb_image.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp > CMakeFiles/OpenGLSupport.dir/stb_image.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp > CMakeFiles/OpenGLSupport.dir/stb_image.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/stb_image.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp -o CMakeFiles/OpenGLSupport.dir/stb_image.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/stb_image.cpp -o CMakeFiles/OpenGLSupport.dir/stb_image.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o.requires
@@ -301,17 +301,17 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/stb_image.o.provides.build: Demos/Open
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/flags.make
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o: Demos/OpenGL/Win32DemoApplication.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp > CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.i
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/Win32DemoApplication.cpp -o CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.s
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o.requires:
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32DemoApplication.o.requires
@@ -355,8 +355,8 @@ Demos/OpenGL/libOpenGLSupport.a: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/Win32
 Demos/OpenGL/libOpenGLSupport.a: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/build.make
 Demos/OpenGL/libOpenGLSupport.a: Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libOpenGLSupport.a"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -P CMakeFiles/OpenGLSupport.dir/cmake_clean_target.cmake
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLSupport.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -P CMakeFiles/OpenGLSupport.dir/cmake_clean_target.cmake
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/OpenGLSupport.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/build: Demos/OpenGL/libOpenGLSupport.a
@@ -377,10 +377,10 @@ Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/requires: Demos/OpenGL/CMakeFiles/Open
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/requires
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/clean:
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -P CMakeFiles/OpenGLSupport.dir/cmake_clean.cmake
+	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL && $(CMAKE_COMMAND) -P CMakeFiles/OpenGLSupport.dir/cmake_clean.cmake
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/clean
 
 Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/depend:
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/a/b/icehockey/bullet-2.80-rev2531 /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL /tmp/a/b/icehockey/bullet-2.80-rev2531 /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL /tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Demos/OpenGL/CMakeFiles/OpenGLSupport.dir/depend
 

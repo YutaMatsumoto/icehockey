@@ -119,7 +119,7 @@ Bullet User Manual : constructor from triangle mesh : 32
 #include "texture.h"
 
 // Bullet
-#include "../bullet/src/btBulletDynamicsCommon.h"
+#include "../bullet/src/btBulletDynamicsCommon.h" // fixme
 #include "../bullet/src/BulletCollision/CollisionShapes/btTriangleShape.h"
 
 #include <GL/glew.h> // glew must be included before the main gl libs
@@ -215,18 +215,20 @@ bool game_done = false;
 bool game_pause = false;
 float grestitution = 0.8;
 float gfriction = 0.3;
-
 float rotationFactor = 0.1;
 float addrotation = 0.1/180.0*M_PI;
 float rotationHorizontal = 0, rotationVertical = 0;
 float rotation = 0; 
 
-
 std::string tex1 = "textures/test.png";
 std::string tex2 = "textures/images.jpeg";
 
-// Lighting Variables
-GLint h_LightPosition,
+// Handles to opengl variables
+GLint 
+  h_Position,
+  h_TexCoord,
+  h_Normal,
+  h_LightPosition,
   h_AmbientProduct,
   h_DiffuseProduct,
   h_SpecularProduct,
@@ -240,6 +242,18 @@ GLint GetUniformLocation(GLint h_prog, const char* pUniformName)
     if (Location == 0xFFFFFFFF)
     {
         fprintf(stderr, "Warning! Unable to get the location of uniform '%s'\n", pUniformName);
+    }
+
+    return Location;
+}
+
+GLint GetAttribLocation(GLint h_prog, const char* variable_name)
+{
+    GLint Location = glGetAttribLocation(h_prog, variable_name);
+
+    if (Location == 0xFFFFFFFF)
+    {
+        fprintf(stderr, "Warning! Unable to get the location of uniform '%s'\n", variable_name);
     }
 
     return Location;
@@ -728,15 +742,15 @@ struct Obj {
     glUniformMatrix4fv(h_gWorld,  1, GL_FALSE, glm::value_ptr(gWorld) );
     glUniformMatrix4fv(h_gWVP,    1, GL_FALSE, glm::value_ptr(gWVP)   );
 
-    glEnableVertexAttribArray(0);
-    glEnableVertexAttribArray(1);
-    glEnableVertexAttribArray(2);
+    glEnableVertexAttribArray(h_Position);
+    glEnableVertexAttribArray(h_TexCoord);
+    glEnableVertexAttribArray(h_Normal);
 
     glBindBuffer(GL_ARRAY_BUFFER, vbo);
 
-    glVertexAttribPointer(Position, 3, GL_FLOAT, GL_FALSE, sizeof(Point), 0);
-    glVertexAttribPointer(TexCoord, 2, GL_FLOAT, GL_FALSE, sizeof(Point), (void*)offsetof(Point,texture)); // fixme color to textcoord
-    glVertexAttribPointer(Normal,   3, GL_FLOAT, GL_FALSE, sizeof(Point), (void*)offsetof(Point,normal));
+    glVertexAttribPointer(h_Position, 3, GL_FLOAT, GL_FALSE, sizeof(Point), 0);
+    glVertexAttribPointer(h_TexCoord, 2, GL_FLOAT, GL_FALSE, sizeof(Point), (void*)offsetof(Point,texture)); // fixme color to textcoord
+    glVertexAttribPointer(h_Normal,   3, GL_FLOAT, GL_FALSE, sizeof(Point), (void*)offsetof(Point,normal));
 
     // m_pTexture->Bind(GL_TEXTURE0); // fixme
 
@@ -751,9 +765,9 @@ struct Obj {
 
     glDrawArrays(GL_TRIANGLES, 0, data.size() );  //mode, starting index, count // ORIGINAL
 
-    glDisableVertexAttribArray(Position);
-    glDisableVertexAttribArray(TexCoord);
-    glDisableVertexAttribArray(Normal); 
+    glDisableVertexAttribArray(h_Position);
+    glDisableVertexAttribArray(h_TexCoord);
+    glDisableVertexAttribArray(h_Normal); 
 
                           
   }
@@ -877,7 +891,10 @@ bool bind_shader_variables2(GLuint h_program)
   h_gWVP   = GetUniformLocation(h_program, "gWVP");
   // h_gWorld = GetUniformLocation(h_program, "gWorld");
 
-  h_LightPosition   = GetUniformLocation( h_program, "LightPosition");
+  h_Position = GetAttribLocation( h_program, "Position");
+  h_TexCoord = GetAttribLocation( h_program, "TexCoord");
+  h_Normal   = GetAttribLocation( h_program, "Normal");
+
   h_AmbientProduct  = GetUniformLocation( h_program, "AmbientProduct");
   h_DiffuseProduct  = GetUniformLocation( h_program, "DiffuseProduct");
   h_SpecularProduct = GetUniformLocation( h_program, "SpecularProduct");
@@ -1148,6 +1165,11 @@ void createMenu(void)
   glutAttachMenu(GLUT_RIGHT_BUTTON);
 }
 
+void print_opengl_version()
+{
+std::cout << glGetString(GL_VERSION) << std::endl;
+}
+
 // Main ---------------------------------------------------------------------
 int main(int argc, const char *argv[])
 {
@@ -1161,6 +1183,7 @@ int main(int argc, const char *argv[])
   glutStuff(argc, argv);
 	glewInit();
   // GLuint h_program = initGPU(argv[3], argv[4]); // specify vshader and fshader
+  print_opengl_version();
   init_shader_variables();
   createMenu();
 
@@ -1183,15 +1206,15 @@ int main(int argc, const char *argv[])
   glm::mat4 identity = glm::mat4();
   Obj ball(argv[1]             , identity , tex1 , dynamicsWorld , ConvexHull); // CH
   Obj board(argv[2]            , identity , tex1 , dynamicsWorld , TriangleMesh); // CH
-  Obj dragon("obj/dragon.obj" , identity , tex1 , dynamicsWorld , None) ;
+  // Obj dragon("obj/dragon.obj" , identity , tex1 , dynamicsWorld , None) ;
     // Obj dragon("obj/dragon.obj", identity, dynamicsWorld, None ) ;
   ball.set_name("Ball");
   // ball.set_texture("textures/test.png");
   board.set_name("Board");
-  dragon.set_name("Dragon");
+  // dragon.set_name("Dragon");
   objs.push_back(ball);
   objs.push_back(board);
-  objs.push_back(dragon);
+  // objs.push_back(dragon);
 
 
   // Lighting --------------------------------------------------------------------

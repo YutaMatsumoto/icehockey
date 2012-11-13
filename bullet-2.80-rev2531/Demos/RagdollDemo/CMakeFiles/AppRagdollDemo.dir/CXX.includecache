@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/btBulletDynamicsCommon.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutStuff.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GL_ShapeDrawer.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GLDebugDrawer.h
 RagdollDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutDemoApplication.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/LinearMath/btAlignedObjectArray.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/main.cpp
 RagdollDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/RagdollDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/RagdollDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

@@ -6,49 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.cpp
 GLDebugFont.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugFont.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugFont.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/btBulletDynamicsCommon.h
 BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
 Taru.mdl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Taru.mdl
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Taru.mdl
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
 InternalEdgeDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutStuff.h
 BulletCollision/CollisionShapes/btTriangleShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/BulletCollision/CollisionShapes/btTriangleShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/BulletCollision/CollisionShapes/btTriangleShape.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
 Win32DemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Win32DemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Win32DemoApplication.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutDemoApplication.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/LinearMath/btAlignedObjectArray.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Taru.mdl
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/Taru.mdl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/main.cpp
 InternalEdgeDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/InternalEdgeDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/InternalEdgeDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

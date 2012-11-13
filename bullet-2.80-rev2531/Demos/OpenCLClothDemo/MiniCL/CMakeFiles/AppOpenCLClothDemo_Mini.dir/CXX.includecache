@@ -6,73 +6,73 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/GLDebugDrawer.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/LinearMath/btIDebugDraw.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cl_cloth_demo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cl_cloth_demo.cpp
 GL/glew.h
 -
 clstuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
 gl_win.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
 cloth.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cloth.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cloth.h
 ../OpenGL/GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/../OpenGL/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/btBulletDynamicsCommon.h
 LinearMath/btHashMap.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btHashMap.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btHashMap.h
 BulletSoftBody/btSoftRigidDynamicsWorld.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletSoftBody/btSoftRigidDynamicsWorld.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletSoftBody/btSoftRigidDynamicsWorld.h
 vectormath/vmInclude.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/vectormath/vmInclude.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/vectormath/vmInclude.h
 BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.h
 BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCLSIMDAware.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCLSIMDAware.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCLSIMDAware.h
 BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexBuffer_OpenGL.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexBuffer_OpenGL.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverVertexBuffer_OpenGL.h
 BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverOutputCLtoGL.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverOutputCLtoGL.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolverOutputCLtoGL.h
 BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/BulletSoftBody/btSoftBodyRigidBodyCollisionConfiguration.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cloth.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/cloth.h
 gl_win.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
 stb_image.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/stb_image.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/stb_image.h
 string
 -
 cstring
 -
 LinearMath/btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btScalar.h
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.cpp
 clstuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
 gl_win.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
 btOpenCLUtils.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/btOpenCLUtils.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/btOpenCLUtils.h
 LinearMath/btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/LinearMath/btScalar.h
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.cpp
 clstuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/clstuff.h
 gl_win.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
 stdlib.h
 -
 string.h
@@ -84,7 +84,7 @@ string.h
 windows.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/OpenCLClothDemo/gl_win.h
 windows.h
 -
 OpenGL/OpenGL.h
@@ -106,7 +106,7 @@ GL/glut.h
 string
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLInclude.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLInclude.h
 MiniCL/cl.h
 -
 OpenCL/cl.h
@@ -116,17 +116,17 @@ MiniCL/cl.h
 CL/cl.h
 -
 CL/cl_gl.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/CL/cl_gl.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/CL/cl_gl.h
 assert.h
 -
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.cpp
 string.h
 -
 btOpenCLUtils.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.h
 stdio.h
 -
 stdlib.h
@@ -136,55 +136,55 @@ Windows.h
 assert.h
 -
 CL/cl_gl.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/CL/cl_gl.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/CL/cl_gl.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLUtils.h
 btOpenCLInclude.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLInclude.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SharedOpenCL/btOpenCLInclude.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/ApplyForces.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/ApplyForces.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/Integrate.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/Integrate.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/PrepareLinks.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/PrepareLinks.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/SolvePositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/SolvePositions.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateFixedVertexPositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateFixedVertexPositions.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNodes.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNodes.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNormals.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNormals.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositions.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositionsFromVelocities.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositionsFromVelocities.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/VSolveLinks.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/VSolveLinks.cl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/MiniCLTaskWrap.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/MiniCLTaskWrap.cpp
 MiniCL/cl_MiniCL_Defs.h
 -
 ../OpenCLC10/ApplyForces.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/ApplyForces.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/ApplyForces.cl
 ../OpenCLC10/Integrate.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/Integrate.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/Integrate.cl
 ../OpenCLC10/PrepareLinks.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/PrepareLinks.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/PrepareLinks.cl
 ../OpenCLC10/SolvePositions.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/SolvePositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/SolvePositions.cl
 ../OpenCLC10/UpdateNodes.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNodes.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNodes.cl
 ../OpenCLC10/UpdateNormals.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNormals.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateNormals.cl
 ../OpenCLC10/UpdatePositions.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositions.cl
 ../OpenCLC10/UpdatePositionsFromVelocities.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositionsFromVelocities.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdatePositionsFromVelocities.cl
 ../OpenCLC10/VSolveLinks.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/VSolveLinks.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/VSolveLinks.cl
 ../OpenCLC10/UpdateFixedVertexPositions.cl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateFixedVertexPositions.cl
+/tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/../OpenCLC10/UpdateFixedVertexPositions.cl
 
 Demos/OpenGL/stb_image.h
 stdio.h

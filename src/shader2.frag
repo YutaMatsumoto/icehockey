@@ -1,15 +1,18 @@
-#version 330
+#version 120
+// #version 330
+/*
+*/
 
 const int MAX_POINT_LIGHTS = 2;
 const int MAX_SPOT_LIGHTS = 2;
 
-in vec2 TexCoord0;
-in vec3 Normal0;
-in vec3 WorldPos0;
-
-in vec3 fN;
-in vec3 fL;
-in vec3 fE;
+// Input from the vertex shader
+varying vec2 TexCoord0;
+varying vec3 Normal0;
+varying vec3 WorldPos0;
+varying vec3 fN;
+varying vec3 fL;
+varying vec3 fE;
 
 uniform sampler2D gSampler;
 // uniform mat4 gWorld;
@@ -20,6 +23,8 @@ uniform float Shineness; // m
 
 void main()
 {
+/*
+*/
   // Normalize the input lighting vectors
   vec3 N = normalize(fN);
   vec3 E = normalize(fE);

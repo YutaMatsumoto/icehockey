@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/btBulletDynamicsCommon.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GlutStuff.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GL_ShapeDrawer.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GLDebugDrawer.h
 GenericJointDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
 Win32DemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Win32DemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Win32DemoApplication.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GlutDemoApplication.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btAlignedObjectArray.h
 Ragdoll.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.cpp
 Ragdoll.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/Ragdoll.h
 DemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/DemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/DemoApplication.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/LinearMath/btAlignedObjectArray.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/btBulletDynamicsCommon.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/main.cpp
 GenericJointDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/GenericJointDemo/GenericJointDemo.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

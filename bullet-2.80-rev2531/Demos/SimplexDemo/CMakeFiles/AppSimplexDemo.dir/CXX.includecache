@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.cpp
 GL_Simplex1to4.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GL_Simplex1to4.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GL_Simplex1to4.h
 LinearMath/btQuaternion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/LinearMath/btQuaternion.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/LinearMath/btQuaternion.h
 LinearMath/btTransform.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/LinearMath/btTransform.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/LinearMath/btTransform.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GL_ShapeDrawer.h
 BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/BulletCollision/NarrowPhaseCollision/btVoronoiSimplexSolver.h
 SimplexDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GlutStuff.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/SimplexDemo.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SimplexDemo/GlutDemoApplication.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

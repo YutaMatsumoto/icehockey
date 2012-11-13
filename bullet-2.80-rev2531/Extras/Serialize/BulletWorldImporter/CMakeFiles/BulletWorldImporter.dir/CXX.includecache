@@ -6,59 +6,59 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bChunk.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bChunk.h
 stdint.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bCommon.h
 assert.h
 -
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btAlignedObjectArray.h
 LinearMath/btHashMap.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btHashMap.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btHashMap.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bDefines.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bDefines.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bFile.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bFile.h
 bCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bCommon.h
 bChunk.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bChunk.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bChunk.h
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/btBulletFile.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/btBulletFile.h
 bFile.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bFile.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bFile.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btAlignedObjectArray.h
 bDefines.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bDefines.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/bDefines.h
 LinearMath/btSerializer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btSerializer.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/LinearMath/btSerializer.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.cpp
 btBulletWorldImporter.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.h
 ../BulletFileLoader/btBulletFile.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/btBulletFile.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/../BulletFileLoader/btBulletFile.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletDynamicsCommon.h
 BulletCollision/Gimpact/btGImpactShape.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/BulletCollision/Gimpact/btGImpactShape.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/BulletCollision/Gimpact/btGImpactShape.h
 BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/BulletCollision/CollisionDispatch/btInternalEdgeUtility.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/btBulletWorldImporter.h
 LinearMath/btTransform.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btTransform.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btTransform.h
 LinearMath/btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btVector3.h
 LinearMath/btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btAlignedObjectArray.h
 LinearMath/btHashMap.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btHashMap.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/Serialize/BulletWorldImporter/LinearMath/btHashMap.h
 
 src/BulletCollision/BroadphaseCollision/btAxisSweep3.h
 LinearMath/btVector3.h

@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/a/b/icehockey/bullet-2.80-rev2531
+CMAKE_SOURCE_DIR = /tmp/icehockey/bullet-2.80-rev2531
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/a/b/icehockey/bullet-2.80-rev2531
+CMAKE_BINARY_DIR = /tmp/icehockey/bullet-2.80-rev2531
 
 # Include any dependencies generated for this target.
 include src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/depend.make
@@ -48,17 +48,17 @@ include src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/Bull
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o: src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/flags.make
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o: src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/a/b/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o -c /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o -c /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.i"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp > CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.i
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp > CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.i
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.s"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp -o CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.s
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/btSoftBodySolver_OpenCL.cpp -o CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.s
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o.requires:
 .PHONY : src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/__/btSoftBodySolver_OpenCL.o.requires
@@ -80,8 +80,8 @@ src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/libBulletSoftBodySolver
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/libBulletSoftBodySolvers_OpenCL_Mini.a: src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/build.make
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/libBulletSoftBodySolvers_OpenCL_Mini.a: src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libBulletSoftBodySolvers_OpenCL_Mini.a"
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -P CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/cmake_clean_target.cmake
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -P CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/cmake_clean_target.cmake
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/build: src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/libBulletSoftBodySolvers_OpenCL_Mini.a
@@ -91,10 +91,10 @@ src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBo
 .PHONY : src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/requires
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/clean:
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -P CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/cmake_clean.cmake
+	cd /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL && $(CMAKE_COMMAND) -P CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/cmake_clean.cmake
 .PHONY : src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/clean
 
 src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/depend:
-	cd /tmp/a/b/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/a/b/icehockey/bullet-2.80-rev2531 /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL /tmp/a/b/icehockey/bullet-2.80-rev2531 /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL /tmp/a/b/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL /tmp/icehockey/bullet-2.80-rev2531/src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/BulletMultiThreaded/GpuSoftBodySolvers/OpenCL/MiniCL/CMakeFiles/BulletSoftBodySolvers_OpenCL_Mini.dir/depend
 

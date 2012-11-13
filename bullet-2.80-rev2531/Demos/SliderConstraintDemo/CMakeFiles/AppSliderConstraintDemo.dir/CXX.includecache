@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GLDebugDrawer.h
 stdio.h
 -
 SliderConstraintDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutStuff.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
 BulletDynamics/ConstraintSolver/btSliderConstraint.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/BulletDynamics/ConstraintSolver/btSliderConstraint.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/BulletDynamics/ConstraintSolver/btSliderConstraint.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutDemoApplication.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/main.cpp
 SliderConstraintDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/SliderConstraintDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/SliderConstraintDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

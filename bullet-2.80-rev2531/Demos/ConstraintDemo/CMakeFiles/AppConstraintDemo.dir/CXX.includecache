@@ -6,39 +6,39 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/btBulletDynamicsCommon.h
 LinearMath/btIDebugDraw.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/LinearMath/btIDebugDraw.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugDrawer.h
 GLDebugFont.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugFont.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugFont.h
 stdio.h
 -
 ConstraintDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
 GL_ShapeDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GL_ShapeDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutStuff.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
 Win32DemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/Win32DemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/Win32DemoApplication.h
 GlutDemoApplication.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutDemoApplication.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutDemoApplication.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/main.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/main.cpp
 ConstraintDemo.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/ConstraintDemo.h
 GlutStuff.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutStuff.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugDrawer.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/btBulletDynamicsCommon.h
+/tmp/icehockey/bullet-2.80-rev2531/Demos/ConstraintDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

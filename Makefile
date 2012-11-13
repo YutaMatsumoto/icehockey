@@ -38,10 +38,11 @@ OBJECTS = bin/lighting_technique.o bin/InitShader.o bin/technique.o bin/math_3d.
 
 # ImageMagick
 IMROOT=$(shell readlink -f imagemagick)
-IMLPATH=$(IMROOT)/Magick++/lib/
-IMLIB=$(IMROOT)/Magick++/lib
-IMBIN=$(IMROOT)/Magick++/bin
-	# IMCFG=`$(IMBIN)/Magick++-config --cppflags --cxxflags --ldflags --libs`
+IMMAKEFILE=$(IMROOT)/Makefile
+IMMAGICKPP=$(IMROOT)/Magick++
+IMLPATH=$(IMMAGICKPP)/lib/
+IMLIB  =$(IMMAGICKPP)/lib
+IMBIN  =$(IMMAGICKPP)/bin
 # ImageMagick : Object
 IMBLOB=$(IMLIB)/Blob.o
 IMIMAGE=$(IMLIB)/Image.o
@@ -69,15 +70,11 @@ CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
 ## Make Main
 # $(IMCFG) 
-bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
-	# if [ ! -r "$(IMROOT)/Makefile" ] ; then\
-	# 	echo "IMROOT Makefile does not exist";\
-	# 	cd $(IMROOT); ./configure ; make;\
-	# else\
-	# 	echo "IMROOT Makefile exists";\
-	# fi
-	cd $(IMROOT); ./configure ; make;\
+bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS) $(IMMAKEFILE)
 	$(CC) $(LIBDIR) $(INCLUDEDIR) $(CXXFLAGS) $^ $(LIBS) -o $@ # $(IMCFGLAST) 
+
+$(IMMAKEFILE) :
+	cd $(IMROOT); ./configure ; make;
 
 run2 : bin/j7.out
 	. $(INITSCRIPT) && ./$< $(BALL) $(BOARD) $(VSHADER2) $(FSHADER2)
@@ -88,7 +85,6 @@ run : bin/j7.out
 # Bullet Library Compilation
 $(BSD) $(BSC) $(BSL) $(BSS) :
 	cd $(BSROOT) ; cmake . -G "Unix Makefiles" && make ; cd ..
-
 
 # Objects
 
@@ -130,9 +126,8 @@ IMMakefile = $(shell readlink -f imagemagick/Makefile)
 ImageMagick : $(IMMakefile)
 	cd $(IMROOT) ; ./configure && make ; cd ..
 
-
-
-
+clean: 
+	rm bin/*.out bin/*.o ; cd bullet ; make clean ; cd .. 
 
 ## Old Below 
 
@@ -156,5 +151,3 @@ libassimp : assimp/Makefile
 assimp/Makefile : assimp/CMakeLists.txt
 	cd assimp && cmake -G 'Unix Makefiles' 
 
-clean: 
-	rm bin/*.out bin/*.o bin/j7.out ; cd bullet ; make clean ; cd .. 

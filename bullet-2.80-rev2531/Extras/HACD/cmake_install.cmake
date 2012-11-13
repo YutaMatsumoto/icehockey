@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD
+# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/Extras/HACD
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

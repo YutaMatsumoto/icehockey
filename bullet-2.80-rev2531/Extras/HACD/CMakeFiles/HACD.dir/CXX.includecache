@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.h
 stdlib.h
 -
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdCircularList.inl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.inl
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.inl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.inl
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.inl
 stdlib.h
 -
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.cpp
 hacdGraph.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdVector.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
 hacdICHull.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
 map
 -
 vector
@@ -38,15 +38,15 @@ vector
 set
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.cpp
 sstream
 -
 hacdGraph.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
 hacdHACD.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.h
 hacdICHull.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
 string.h
 -
 algorithm
@@ -56,15 +56,15 @@ iterator
 limits
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdHACD.h
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdVector.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
 hacdGraph.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdGraph.h
 hacdICHull.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
 set
 -
 vector
@@ -74,53 +74,53 @@ queue
 functional
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.cpp
 hacdICHull.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
 limits
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdICHull.h
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdManifoldMesh.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
 hacdVector.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
 vector
 -
 map
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.cpp
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.cpp
 hacdManifoldMesh.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdManifoldMesh.h
 iostream
 -
 fstream
 -
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdCircularList.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdCircularList.h
 hacdVector.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
 set
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.h
 math.h
 -
 iostream
 -
 hacdVersion.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 hacdVector.inl
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.inl
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.inl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.inl
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVector.inl
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
+/tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/hacdVersion.h
 

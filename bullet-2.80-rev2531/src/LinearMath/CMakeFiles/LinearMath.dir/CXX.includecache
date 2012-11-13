@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp
 btAlignedAllocator.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
 malloc.h
 -
 stdlib.h
@@ -16,15 +16,15 @@ stdlib.h
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
 btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 btAlignedAllocator.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
 memory.h
 -
 string.h
@@ -32,63 +32,63 @@ string.h
 new
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp
 string.h
 -
 btConvexHull.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.h
 btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 btMinMax.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
 btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.h
 btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp
 string.h
 -
 btConvexHullComputer.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.h
 btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 btMinMax.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
 btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 stdint.h
 -
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.h
 btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp
 btGeometryUtil.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.h
 btVector3.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 btAlignedObjectArray.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedObjectArray.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
 btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp
 btQuickprof.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.h
 sys/sys_time.h
 -
 sys/time_util.h
@@ -108,17 +108,17 @@ sys/time.h
 stdio.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.h
 stdio.h
 -
 btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 btAlignedAllocator.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.h
 new
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 math.h
 -
 stdlib.h
@@ -144,11 +144,11 @@ assert.h
 assert.h
 -
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp
 
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btVector3.h
 btScalar.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btScalar.h
 btMinMax.h
-/tmp/a/b/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
+/tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btMinMax.h
 
