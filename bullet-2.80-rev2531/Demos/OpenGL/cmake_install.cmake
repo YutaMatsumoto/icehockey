@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/Demos/OpenGL
+# Install script for directory: /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/OpenGL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

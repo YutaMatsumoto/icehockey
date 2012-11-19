@@ -6,75 +6,75 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp
 BspConverter.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
 BspLoader.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
 LinearMath/btVector3.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btVector3.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btVector3.h
 LinearMath/btGeometryUtil.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btGeometryUtil.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btGeometryUtil.h
 stdio.h
 -
 string.h
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
 LinearMath/btVector3.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btVector3.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btVector3.h
 LinearMath/btAlignedObjectArray.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.cpp
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.cpp
 btBulletDynamicsCommon.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/btBulletDynamicsCommon.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/btBulletDynamicsCommon.h
 LinearMath/btQuickprof.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btQuickprof.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btQuickprof.h
 LinearMath/btIDebugDraw.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btIDebugDraw.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btIDebugDraw.h
 GLDebugDrawer.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GLDebugDrawer.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GLDebugDrawer.h
 BspLoader.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
 BspConverter.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.h
 stdio.h
 -
 BspDemo.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
 GL_ShapeDrawer.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GL_ShapeDrawer.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GL_ShapeDrawer.h
 GlutStuff.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutStuff.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutStuff.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
 GlutDemoApplication.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutDemoApplication.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutDemoApplication.h
 LinearMath/btAlignedObjectArray.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp
 BspLoader.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
 stdio.h
 -
 string.h
 -
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.h
 LinearMath/btAlignedObjectArray.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/LinearMath/btAlignedObjectArray.h
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/main.cpp
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/main.cpp
 BspDemo.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspDemo.h
 GlutStuff.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutStuff.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GlutStuff.h
 GLDebugDrawer.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GLDebugDrawer.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/GLDebugDrawer.h
 btBulletDynamicsCommon.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/btBulletDynamicsCommon.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/btBulletDynamicsCommon.h
 
 Demos/OpenGL/DemoApplication.h
 GlutStuff.h

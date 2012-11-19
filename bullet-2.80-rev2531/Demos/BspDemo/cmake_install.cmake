@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo
+# Install script for directory: /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

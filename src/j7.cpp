@@ -1,55 +1,43 @@
 // Search For 
 // HERE FIXME
 
-// TODO 
-// Model Texture
-// Texture Mapping
-// disable colorizeByVertexPosition
-// rotate
-// load dragon -> slow
-// 
-
 /* TODO 
-// pause / restart
-// clear predicate and message
-// menu
-// mouse
-// fix rotation
-// fix restitution
-// reshape
-// quit does not work if ball has gone into the hole
-// Makefile cleanup
-// auto lib build
-// should specify objects (ball and board when it runs on the command line)
-// configure
-// toggle pause and resume in menu
-// start and finish
-// 
-// texture
-// lighting
+
+see a.md in ~/notes-local
+
+suppport model transformations from outside of the bullet by directly manipulating btTransform?
+  translation
+pause / restart, menu mouse, toggle pause and resume in menu, start and finish
+tweak bullet variables : rotation restitution 
+texture
+  load texture in assimp
+lighting
+  user interface for light
+  
+
+LOW Priority Ones
+  support multiple matrices in vertex shader ie. view projection. draw() function only needs to change model matrix in the shader
+  Makefile cleanup
 */
 /* BUG 
-//
-// Was using convexhull for board but the wall and the floor of the board makes
-// it closed cube, but the inside of it must be empty, and should not make collisions in there.
-// [せっかくだから俺はプログラマの道を選ぶぜ@wiki - Bullet その３　応用形状編](http://www11.atwiki.jp/darui_program/pages/328.html)
-// [btCollisionShape from CC3MeshNode? « cocos2d for iPhone](http://www.cocos2d-iphone.org/forum/topic/19508)
-// cause: was using convex hull for board with wall and floor
-// 
+Was using convexhull for board but the wall and the floor of the board makes
+it closed cube, but the inside of it must be empty, and should not make collisions in there.
+[せっかくだから俺はプログラマの道を選ぶぜ@wiki - Bullet その３　応用形状編](http://www11.atwiki.jp/darui_program/pages/328.html)
+[btCollisionShape from CC3MeshNode? « cocos2d for iPhone](http://www.cocos2d-iphone.org/forum/topic/19508)
+cause: was using convex hull for board with wall and floor
 */
 /* Task
-// color or texture 
-// 
-// added body
-// apply force and fall ball in idle()
-// make board as a kinematic body and support the ball (ball should not fall)
-  //sub make board first rotate and let it fall with the ball
-  // NOT DONE
-// make board rotate
-// set friction bouncing coeff and so forth
-// make board rotate
-  // angular velocity
-  // quaranteen
+color or texture 
+added body
+apply force and fall ball in idle()
+make board as a kinematic body and support the ball (ball should not fall)
+  sub make board first rotate and let it fall with the ball
+  NOT DONE
+make board rotate
+set friction bouncing coeff and so forth
+make board rotate
+  angular velocity
+  quaranteen
 */
 /* References
 [Collision Shapes - Physics Simulation Wiki](http://www.bulletphysics.org/mediawiki-1.5.8/index.php/Collision_Shapes)
@@ -148,8 +136,10 @@ float rotationAngle=0.1;
 std::vector<btRigidBody*> board_rigid_bodies;
 btRigidBody* ballbody;
 
-// std::string ball_fname = "obj/ball.obj";
-// std::string board_fname = "obj/board.obj";
+std::string ball_fname = "obj/ball.obj";
+std::string board_fname = "obj/board.obj";
+std::string table_fname = "obj/Table.obj";
+std::string puck_fname = "obj/Puck.obj";
 
 GLuint h_program; // GLSL h_program handle
 GLint h_mvp  = -1;    
@@ -175,13 +165,17 @@ Obj* pboard=NULL;
 glm::vec3 max_coords = glm::vec3(10,10,10);
 std::chrono::time_point<std::chrono::high_resolution_clock> t1,t2;
 
+// Eye/Camera
+float perspective_near = 1;
+float perspective_far  = 1000.0;
 float n = 30;
-// glm::vec3 look_eyepos = glm::vec3(n, 30.0, n);    // Eye Position
-glm::vec3 look_eyepos = glm::vec3(0, 20.0, 0);    // Eye Position
+float eyepos_y = 300;
+glm::vec3 look_eyepos = glm::vec3(0, eyepos_y, 0);    // Eye Position
+// glm::vec3 look_eyepos = glm::vec3(0, 0, eyepos_y);    // Eye Position
 float world_gravity= -5;
 float ball_mass = 1;
 float board_mass = 100;
-float ball_initial_height = 1; // 0 5
+float ball_initial_height = 10; // 0 5
 
 // struct MyVBO;
 // std::vector<MyVBO> vbos;
@@ -772,6 +766,10 @@ struct Obj {
                           
   }
 
+  void translateBody()
+{
+}
+
 
   void rotateBody(const btScalar& yaw, const btScalar& roll, const btScalar& pitch)
   // yaw roll pitch in radian
@@ -921,7 +919,11 @@ void init_shader_variables()
     glm::vec3(0.0, 0.0, -1.0)     // Up
   ); 
 
-  gProj = glm::perspective(90.0f, float(w)/float(h), 1.0f, 100.0f);
+  std::cout << "DEBUG IN init_shader_variables" << std::endl; 
+  std::cout << view << std::endl;
+
+  gProj = glm::perspective(90.0f, float(w)/float(h), perspective_near, perspective_far );
+      // 1.0f, 100.0f);
   gWVP    = gProj * view * id;
   gWorld  =         view * id;
 
@@ -1203,14 +1205,17 @@ int main(int argc, const char *argv[])
 
 
   // Game Object ------------------------------------------------------------------
+  // current implementation must fill out vectors, objs, to the size of 2
   glm::mat4 identity = glm::mat4();
-  Obj ball(argv[1]             , identity , tex1 , dynamicsWorld , ConvexHull); // CH
-  Obj board(argv[2]            , identity , tex1 , dynamicsWorld , TriangleMesh); // CH
+  // Obj ball(argv[1]             , identity , tex1 , dynamicsWorld , ConvexHull); // CH
+  // Obj board(argv[2]            , identity , tex1 , dynamicsWorld , TriangleMesh); // CH
+  Obj ball(puck_fname             , identity , tex1 , dynamicsWorld , ConvexHull); // CH
+  Obj board(table_fname            , identity , tex1 , dynamicsWorld , TriangleMesh); // CH
   // Obj dragon("obj/dragon.obj" , identity , tex1 , dynamicsWorld , None) ;
-    // Obj dragon("obj/dragon.obj", identity, dynamicsWorld, None ) ;
+  // Obj dragon("obj/dragon.obj", identity, dynamicsWorld, None ) ;
   ball.set_name("Ball");
-  // ball.set_texture("textures/test.png");
   board.set_name("Board");
+  ball.set_texture("textures/test.png");
   // dragon.set_name("Dragon");
   objs.push_back(ball);
   objs.push_back(board);

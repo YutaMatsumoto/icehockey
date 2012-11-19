@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/icehockey/bullet-2.80-rev2531/src/MiniCL
+# Install script for directory: /tmp/scratch/icehockey/bullet-2.80-rev2531/src/MiniCL
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,12 +33,12 @@ IF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/icehockey/bullet-2.80-rev2531/src/MiniCL/libMiniCL.a")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/tmp/scratch/icehockey/bullet-2.80-rev2531/src/MiniCL/libMiniCL.a")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CPACK_ABSOLUTE_DESTINATION_FILES
    "/usr/local/include/bullet/MiniCL")
-FILE(INSTALL DESTINATION "/usr/local/include/bullet" TYPE DIRECTORY FILES "/tmp/icehockey/bullet-2.80-rev2531/src/MiniCL" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE)
+FILE(INSTALL DESTINATION "/usr/local/include/bullet" TYPE DIRECTORY FILES "/tmp/scratch/icehockey/bullet-2.80-rev2531/src/MiniCL" FILES_MATCHING REGEX "/[^/]*\\.h$" REGEX "/\\.svn$" EXCLUDE REGEX "/CMakeFiles$" EXCLUDE)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

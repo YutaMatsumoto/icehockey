@@ -18,8 +18,13 @@
 * mesh objects
   * paddlers 
   * board
+  * load material by assimp ? 
+  * make sizes appropriate by assimp?
 * physics
   * make bullet objects for paddler and board
-  * move paddler appropriately
+  * move paddler appropriately whether outside/inside of bullet physics engine 
+    * outside -> btTransform of rightbody
+    * inside  -> apply force 
 * clear up j7.cpp 
 * how to use j7.out and makefile
+

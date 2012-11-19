@@ -36,10 +36,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_SOURCE_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_BINARY_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -107,14 +107,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles /tmp/icehockey/bullet-2.80-rev2531/Extras/HACD/CMakeFiles/progress.marks
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles 0
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_progress_start /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles /tmp/scratch/icehockey/bullet-2.80-rev2531/Extras/HACD/CMakeFiles/progress.marks
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/clean
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/clean
 .PHONY : clean
 
 # The main clean target
@@ -123,22 +123,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/preinstall
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/preinstall
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Extras/HACD/CMakeFiles/HACD.dir/rule:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/CMakeFiles/HACD.dir/rule
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f CMakeFiles/Makefile2 Extras/HACD/CMakeFiles/HACD.dir/rule
 .PHONY : Extras/HACD/CMakeFiles/HACD.dir/rule
 
 # Convenience name for target.
@@ -147,67 +147,67 @@ HACD: Extras/HACD/CMakeFiles/HACD.dir/rule
 
 # fast build rule for target.
 HACD/fast:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/build
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/build
 .PHONY : HACD/fast
 
 # target to build an object file
 hacdGraph.o:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.o
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.o
 .PHONY : hacdGraph.o
 
 # target to preprocess a source file
 hacdGraph.i:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.i
 .PHONY : hacdGraph.i
 
 # target to generate assembly for a file
 hacdGraph.s:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdGraph.s
 .PHONY : hacdGraph.s
 
 # target to build an object file
 hacdHACD.o:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.o
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.o
 .PHONY : hacdHACD.o
 
 # target to preprocess a source file
 hacdHACD.i:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.i
 .PHONY : hacdHACD.i
 
 # target to generate assembly for a file
 hacdHACD.s:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdHACD.s
 .PHONY : hacdHACD.s
 
 # target to build an object file
 hacdICHull.o:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.o
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.o
 .PHONY : hacdICHull.o
 
 # target to preprocess a source file
 hacdICHull.i:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.i
 .PHONY : hacdICHull.i
 
 # target to generate assembly for a file
 hacdICHull.s:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdICHull.s
 .PHONY : hacdICHull.s
 
 # target to build an object file
 hacdManifoldMesh.o:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.o
 .PHONY : hacdManifoldMesh.o
 
 # target to preprocess a source file
 hacdManifoldMesh.i:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.i
 .PHONY : hacdManifoldMesh.i
 
 # target to generate assembly for a file
 hacdManifoldMesh.s:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(MAKE) -f Extras/HACD/CMakeFiles/HACD.dir/build.make Extras/HACD/CMakeFiles/HACD.dir/hacdManifoldMesh.s
 .PHONY : hacdManifoldMesh.s
 
 # Help Target
@@ -246,6 +246,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

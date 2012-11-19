@@ -19,13 +19,13 @@
 #
 #    magick.sh convert -size 640x480 gradient:black-yellow gradient.png
 
-top_srcdir='/tmp/icehockey/ImageMagick-6.8.0-4'
-top_builddir='/tmp/icehockey/ImageMagick-6.8.0-4'
+top_srcdir='/tmp/scratch/icehockey/ImageMagick-6.8.0-4'
+top_builddir='/tmp/scratch/icehockey/ImageMagick-6.8.0-4'
 
-MAGICK_CODER_MODULE_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/coders'
-MAGICK_CONFIGURE_SRC_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/config'
-MAGICK_CONFIGURE_BUILD_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/config'
-MAGICK_FILTER_MODULE_PATH='/tmp/icehockey/ImageMagick-6.8.0-4/filters'
+MAGICK_CODER_MODULE_PATH='/tmp/scratch/icehockey/ImageMagick-6.8.0-4/coders'
+MAGICK_CONFIGURE_SRC_PATH='/tmp/scratch/icehockey/ImageMagick-6.8.0-4/config'
+MAGICK_CONFIGURE_BUILD_PATH='/tmp/scratch/icehockey/ImageMagick-6.8.0-4/config'
+MAGICK_FILTER_MODULE_PATH='/tmp/scratch/icehockey/ImageMagick-6.8.0-4/filters'
 DIRSEP=':'
 
 PATH="${top_builddir}/utilities:${PATH}"

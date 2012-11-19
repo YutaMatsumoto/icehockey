@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_SOURCE_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_BINARY_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 # Include any dependencies generated for this target.
 include Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/depend.make
@@ -48,17 +48,17 @@ include Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o: Demos/CharacterDemo/DynamicCharacterController.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp > CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp > CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.i
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp -o CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/DynamicCharacterController.cpp -o CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.s
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o.requires:
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o.requires
@@ -71,17 +71,17 @@ Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DynamicCharacterController.o
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o: Demos/CharacterDemo/CharacterDemo.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppCharacterDemo.dir/CharacterDemo.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp > CMakeFiles/AppCharacterDemo.dir/CharacterDemo.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp > CMakeFiles/AppCharacterDemo.dir/CharacterDemo.i
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppCharacterDemo.dir/CharacterDemo.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp -o CMakeFiles/AppCharacterDemo.dir/CharacterDemo.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CharacterDemo.cpp -o CMakeFiles/AppCharacterDemo.dir/CharacterDemo.s
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o.requires:
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o.requires
@@ -94,17 +94,17 @@ Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/CharacterDemo.o.provides.bui
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o: Demos/BspDemo/BspConverter.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp > CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp > CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.i
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspConverter.cpp -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.s
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o.requires:
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o.requires
@@ -117,17 +117,17 @@ Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspConverter.o.pr
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o: Demos/BspDemo/BspLoader.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp > CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp > CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.i
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/BspDemo/BspLoader.cpp -o CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.s
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o.requires:
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o.requires
@@ -140,17 +140,17 @@ Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/__/BspDemo/BspLoader.o.provi
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.o: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/flags.make
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.o: Demos/CharacterDemo/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/main.o -c /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/AppCharacterDemo.dir/main.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AppCharacterDemo.dir/main.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp > CMakeFiles/AppCharacterDemo.dir/main.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp > CMakeFiles/AppCharacterDemo.dir/main.i
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AppCharacterDemo.dir/main.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp -o CMakeFiles/AppCharacterDemo.dir/main.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/main.cpp -o CMakeFiles/AppCharacterDemo.dir/main.s
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.o.requires:
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/main.o.requires
@@ -187,8 +187,8 @@ Demos/CharacterDemo/AppCharacterDemo: /usr/lib/x86_64-linux-gnu/libGLU.so
 Demos/CharacterDemo/AppCharacterDemo: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/build.make
 Demos/CharacterDemo/AppCharacterDemo: Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable AppCharacterDemo"
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AppCharacterDemo.dir/link.txt --verbose=$(VERBOSE)
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/cmake -E copy_if_different /tmp/icehockey/bullet-2.80-rev2531/BspDemo.bsp /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AppCharacterDemo.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && /usr/bin/cmake -E copy_if_different /tmp/scratch/icehockey/bullet-2.80-rev2531/BspDemo.bsp /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo
 
 # Rule to build all files generated by this target.
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/build: Demos/CharacterDemo/AppCharacterDemo
@@ -202,10 +202,10 @@ Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/requires: Demos/CharacterDem
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/requires
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/clean:
-	cd /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && $(CMAKE_COMMAND) -P CMakeFiles/AppCharacterDemo.dir/cmake_clean.cmake
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo && $(CMAKE_COMMAND) -P CMakeFiles/AppCharacterDemo.dir/cmake_clean.cmake
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/clean
 
 Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/depend:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo /tmp/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/scratch/icehockey/bullet-2.80-rev2531 /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo /tmp/scratch/icehockey/bullet-2.80-rev2531 /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo /tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Demos/CharacterDemo/CMakeFiles/AppCharacterDemo.dir/depend
 

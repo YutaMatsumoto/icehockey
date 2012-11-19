@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/tmp/icehockey/bullet-2.80-rev2531/Demos/HelloWorld/HelloWorld.cpp
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/HelloWorld/HelloWorld.cpp
 btBulletDynamicsCommon.h
-/tmp/icehockey/bullet-2.80-rev2531/Demos/HelloWorld/btBulletDynamicsCommon.h
+/tmp/scratch/icehockey/bullet-2.80-rev2531/Demos/HelloWorld/btBulletDynamicsCommon.h
 stdio.h
 -
 

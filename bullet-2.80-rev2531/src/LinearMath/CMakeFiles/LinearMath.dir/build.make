@@ -32,10 +32,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_SOURCE_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /tmp/icehockey/bullet-2.80-rev2531
+CMAKE_BINARY_DIR = /tmp/scratch/icehockey/bullet-2.80-rev2531
 
 # Include any dependencies generated for this target.
 include src/LinearMath/CMakeFiles/LinearMath.dir/depend.make
@@ -48,17 +48,17 @@ include src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o: src/LinearMath/btAlignedAllocator.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btAlignedAllocator.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btAlignedAllocator.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btAlignedAllocator.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp > CMakeFiles/LinearMath.dir/btAlignedAllocator.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp > CMakeFiles/LinearMath.dir/btAlignedAllocator.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btAlignedAllocator.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp -o CMakeFiles/LinearMath.dir/btAlignedAllocator.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btAlignedAllocator.cpp -o CMakeFiles/LinearMath.dir/btAlignedAllocator.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o.requires
@@ -71,17 +71,17 @@ src/LinearMath/CMakeFiles/LinearMath.dir/btAlignedAllocator.o.provides.build: sr
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o: src/LinearMath/btConvexHull.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btConvexHull.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btConvexHull.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btConvexHull.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp > CMakeFiles/LinearMath.dir/btConvexHull.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp > CMakeFiles/LinearMath.dir/btConvexHull.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btConvexHull.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp -o CMakeFiles/LinearMath.dir/btConvexHull.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHull.cpp -o CMakeFiles/LinearMath.dir/btConvexHull.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o.requires
@@ -94,17 +94,17 @@ src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHull.o.provides.build: src/Line
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o: src/LinearMath/btConvexHullComputer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btConvexHullComputer.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btConvexHullComputer.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btConvexHullComputer.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp > CMakeFiles/LinearMath.dir/btConvexHullComputer.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp > CMakeFiles/LinearMath.dir/btConvexHullComputer.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btConvexHullComputer.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp -o CMakeFiles/LinearMath.dir/btConvexHullComputer.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btConvexHullComputer.cpp -o CMakeFiles/LinearMath.dir/btConvexHullComputer.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o.requires
@@ -117,17 +117,17 @@ src/LinearMath/CMakeFiles/LinearMath.dir/btConvexHullComputer.o.provides.build: 
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o: src/LinearMath/btGeometryUtil.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btGeometryUtil.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btGeometryUtil.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btGeometryUtil.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp > CMakeFiles/LinearMath.dir/btGeometryUtil.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp > CMakeFiles/LinearMath.dir/btGeometryUtil.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btGeometryUtil.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp -o CMakeFiles/LinearMath.dir/btGeometryUtil.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btGeometryUtil.cpp -o CMakeFiles/LinearMath.dir/btGeometryUtil.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o.requires
@@ -140,17 +140,17 @@ src/LinearMath/CMakeFiles/LinearMath.dir/btGeometryUtil.o.provides.build: src/Li
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o: src/LinearMath/btQuickprof.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btQuickprof.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btQuickprof.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btQuickprof.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp > CMakeFiles/LinearMath.dir/btQuickprof.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp > CMakeFiles/LinearMath.dir/btQuickprof.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btQuickprof.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp -o CMakeFiles/LinearMath.dir/btQuickprof.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btQuickprof.cpp -o CMakeFiles/LinearMath.dir/btQuickprof.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o.requires
@@ -163,17 +163,17 @@ src/LinearMath/CMakeFiles/LinearMath.dir/btQuickprof.o.provides.build: src/Linea
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o: src/LinearMath/CMakeFiles/LinearMath.dir/flags.make
 src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o: src/LinearMath/btSerializer.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /tmp/scratch/icehockey/bullet-2.80-rev2531/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btSerializer.o -c /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/LinearMath.dir/btSerializer.o -c /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinearMath.dir/btSerializer.i"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp > CMakeFiles/LinearMath.dir/btSerializer.i
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp > CMakeFiles/LinearMath.dir/btSerializer.i
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinearMath.dir/btSerializer.s"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp -o CMakeFiles/LinearMath.dir/btSerializer.s
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/btSerializer.cpp -o CMakeFiles/LinearMath.dir/btSerializer.s
 
 src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o.requires:
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/btSerializer.o.requires
@@ -205,8 +205,8 @@ src/LinearMath/libLinearMath.a: src/LinearMath/CMakeFiles/LinearMath.dir/btSeria
 src/LinearMath/libLinearMath.a: src/LinearMath/CMakeFiles/LinearMath.dir/build.make
 src/LinearMath/libLinearMath.a: src/LinearMath/CMakeFiles/LinearMath.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX static library libLinearMath.a"
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -P CMakeFiles/LinearMath.dir/cmake_clean_target.cmake
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinearMath.dir/link.txt --verbose=$(VERBOSE)
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -P CMakeFiles/LinearMath.dir/cmake_clean_target.cmake
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LinearMath.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/LinearMath/CMakeFiles/LinearMath.dir/build: src/LinearMath/libLinearMath.a
@@ -221,10 +221,10 @@ src/LinearMath/CMakeFiles/LinearMath.dir/requires: src/LinearMath/CMakeFiles/Lin
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/requires
 
 src/LinearMath/CMakeFiles/LinearMath.dir/clean:
-	cd /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -P CMakeFiles/LinearMath.dir/cmake_clean.cmake
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath && $(CMAKE_COMMAND) -P CMakeFiles/LinearMath.dir/cmake_clean.cmake
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/clean
 
 src/LinearMath/CMakeFiles/LinearMath.dir/depend:
-	cd /tmp/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath /tmp/icehockey/bullet-2.80-rev2531 /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath /tmp/icehockey/bullet-2.80-rev2531/src/LinearMath/CMakeFiles/LinearMath.dir/DependInfo.cmake --color=$(COLOR)
+	cd /tmp/scratch/icehockey/bullet-2.80-rev2531 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /tmp/scratch/icehockey/bullet-2.80-rev2531 /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath /tmp/scratch/icehockey/bullet-2.80-rev2531 /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath /tmp/scratch/icehockey/bullet-2.80-rev2531/src/LinearMath/CMakeFiles/LinearMath.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/LinearMath/CMakeFiles/LinearMath.dir/depend
 
