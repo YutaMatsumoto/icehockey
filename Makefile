@@ -34,7 +34,7 @@ FSHADER2=src/shader2.frag
 
 INITSCRIPT = bin/init.sh
 
-OBJECTS = bin/lighting_technique.o bin/InitShader.o bin/technique.o bin/math_3d.o bin/texture.o 
+OBJECTS = bin/lighting_technique.o bin/InitShader.o bin/technique.o bin/math_3d.o bin/texture.o  bin/InitShader.o
 
 # ImageMagick
 IMROOT=$(shell readlink -f imagemagick)
@@ -63,13 +63,21 @@ IMINCLUDE=-I$(IMROOT)/Magick++/lib -I$(IMROOT)
 IMLIBS=-lMagick++ -lMagickCore -lMagickWand
 IMLIBDIR=-L$(IMROOT)/Magick++/lib/.libs -L$(IMROOT)/magick/.libs -L$(IMROOT)/utilities/.libs -L$(IMROOT)/Magick++/lib/.libs -L$(IMROOT)/magick/.libs -L$(IMROOT)/wand/.libs
 
-
 # Compiler and its Options
 CC=g++
 CXXFLAGS=-g -Wall -std=c++0x # -fpermissive
 
 ## Make Main
 # $(IMCFG) 
+J8DEP = src/j8.cpp $(OBJECTS) # $(BSD) $(BSC) $(BSL) $(BSS) 
+bin/j8.out : src/j8.cpp $(LIBSJ8) $(OBJECTS)
+	@if [ ! -e $(IMMAKEFILE) ] ; then \
+		make $(IMMAKEFILE) ;\
+	else \
+		echo -n ""; \
+	fi
+	$(CC) $(LIBDIR) $(INCLUDEDIR) $(CXXFLAGS) $^ $(LIBSJ8) -o $@ # $(IMCFGLAST) 
+
 J7DEP = src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS) 
 bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
 	@if [ ! -e $(IMMAKEFILE) ] ; then \
@@ -81,6 +89,9 @@ bin/j7.out : src/j7.cpp $(OBJECTS) $(BSD) $(BSC) $(BSL) $(BSS)
 
 $(IMMAKEFILE) ImageMagickLib :
 	cd $(IMROOT); ./configure ; make;
+
+run8 : bin/j8.out
+	. $(INITSCRIPT) && ./$<
 
 run2 : bin/j7.out
 	. $(INITSCRIPT) && ./$< $(BALL) $(BOARD) $(VSHADER2) $(FSHADER2)
@@ -114,6 +125,8 @@ bin/math_3d.o : src/math_3d.cpp
 # Aggregation 
 # Libs
 	# LPATH=-Wl,-rpath=lib # embed dynamic library (in ./lib) references into executable
+
+LIBSJ8= -lglut -lGLEW -lGL -lGLU -lassimp $(IMLIBS)
 LIBS= -lglut -lGLEW -lGL -lGLU -lassimp $(BSD) $(BSC) $(BSL) $(BSS) $(IMLIBS)
 LIBDIR = $(LIBDIRASSIMP) $(IMLIBDIR)
 # Include Headers

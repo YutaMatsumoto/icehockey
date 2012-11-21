@@ -1,346 +1,903 @@
-!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
-!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-ARRAY_SIZE_IN_ELEMENTS	util.h	22;"	d
-AddShader	technique.cpp	/^bool Technique::AddShader(GLenum ShaderType, const char* pShaderText)$/;"	f	class:Technique
-AmbientIntensity	lighting_technique.h	/^        GLuint AmbientIntensity;$/;"	m	struct:LightingTechnique::__anon4
-AmbientIntensity	lighting_technique.h	/^        GLuint AmbientIntensity;$/;"	m	struct:LightingTechnique::__anon5
-AmbientIntensity	lighting_technique.h	/^        GLuint AmbientIntensity;$/;"	m	struct:LightingTechnique::__anon7
-AmbientIntensity	lighting_technique.h	/^    float AmbientIntensity;$/;"	m	struct:BaseLight
-Atten	lighting_technique.h	/^        } Atten;$/;"	m	struct:LightingTechnique::__anon5	typeref:struct:LightingTechnique::__anon5::__anon6
-Atten	lighting_technique.h	/^        } Atten;$/;"	m	struct:LightingTechnique::__anon7	typeref:struct:LightingTechnique::__anon7::__anon8
-Attenuation	lighting_technique.h	/^    } Attenuation;$/;"	m	struct:PointLight	typeref:struct:PointLight::__anon3
-Ball	j7.cpp	/^enum { Ball, Board }; $/;"	e	enum:__anon9	file:
-BaseLight	lighting_technique.h	/^    BaseLight()$/;"	f	struct:BaseLight
-BaseLight	lighting_technique.h	/^struct BaseLight$/;"	s
-Bind	texture.cpp	/^void Texture::Bind(GLenum TextureUnit)$/;"	f	class:Texture
-Board	j7.cpp	/^enum { Ball, Board }; $/;"	e	enum:__anon9	file:
-Color	lighting_technique.h	/^        GLuint Color;$/;"	m	struct:LightingTechnique::__anon4
-Color	lighting_technique.h	/^        GLuint Color;$/;"	m	struct:LightingTechnique::__anon5
-Color	lighting_technique.h	/^        GLuint Color;$/;"	m	struct:LightingTechnique::__anon7
-Color	lighting_technique.h	/^    Vector3f Color;$/;"	m	struct:BaseLight
-Conjugate	math_3d.cpp	/^Quaternion Quaternion::Conjugate()$/;"	f	class:Quaternion
-Constant	lighting_technique.h	/^            GLuint Constant;$/;"	m	struct:LightingTechnique::__anon5::__anon6
-Constant	lighting_technique.h	/^            GLuint Constant;$/;"	m	struct:LightingTechnique::__anon7::__anon8
-Constant	lighting_technique.h	/^        float Constant;$/;"	m	struct:PointLight::__anon3
-ConvexHull	j7.cpp	/^enum Shape { None=0, ConvexHull, TriangleMesh };$/;"	e	enum:Shape	file:
-CreateVertexBuffer	tutorial21.cpp	/^    void CreateVertexBuffer()$/;"	f	class:Tutorial21	file:
-Cross	math_3d.cpp	/^Vector3f Vector3f::Cross(const Vector3f& v) const$/;"	f	class:Vector3f
-Cutoff	lighting_technique.h	/^        GLuint Cutoff;$/;"	m	struct:LightingTechnique::__anon7
-Cutoff	lighting_technique.h	/^    float Cutoff;$/;"	m	struct:SpotLight
-DiffuseIntensity	lighting_technique.h	/^        GLuint DiffuseIntensity;$/;"	m	struct:LightingTechnique::__anon4
-DiffuseIntensity	lighting_technique.h	/^        GLuint DiffuseIntensity;$/;"	m	struct:LightingTechnique::__anon5
-DiffuseIntensity	lighting_technique.h	/^        GLuint DiffuseIntensity;$/;"	m	struct:LightingTechnique::__anon7
-DiffuseIntensity	lighting_technique.h	/^    float DiffuseIntensity;$/;"	m	struct:BaseLight
-Direction	lighting_technique.h	/^        GLuint Direction;$/;"	m	struct:LightingTechnique::__anon4
-Direction	lighting_technique.h	/^        GLuint Direction;$/;"	m	struct:LightingTechnique::__anon7
-Direction	lighting_technique.h	/^    Vector3f Direction;$/;"	m	struct:DirectionalLight
-Direction	lighting_technique.h	/^    Vector3f Direction;$/;"	m	struct:SpotLight
-DirectionalLight	lighting_technique.h	/^    DirectionalLight()$/;"	f	struct:DirectionalLight
-DirectionalLight	lighting_technique.h	/^struct DirectionalLight : public BaseLight$/;"	s
-Enable	technique.cpp	/^void Technique::Enable()$/;"	f	class:Technique
-Exp	lighting_technique.h	/^            GLuint Exp;$/;"	m	struct:LightingTechnique::__anon5::__anon6
-Exp	lighting_technique.h	/^            GLuint Exp;$/;"	m	struct:LightingTechnique::__anon7::__anon8
-Exp	lighting_technique.h	/^        float Exp;$/;"	m	struct:PointLight::__anon3
-FOV	pipeline.h	/^        float FOV;$/;"	m	struct:Pipeline::__anon1
-FieldDepth	tutorial21.cpp	/^static const float FieldDepth = 20.0f;$/;"	v	file:
-FieldWidth	tutorial21.cpp	/^static const float FieldWidth = 10.0f;$/;"	v	file:
-Finalize	technique.cpp	/^bool Technique::Finalize()$/;"	f	class:Technique
-GetUniformLocation	j7.cpp	/^GLint GetUniformLocation(GLint h_prog, const char* pUniformName)$/;"	f
-GetUniformLocation	technique.cpp	/^GLint Technique::GetUniformLocation(const char* pUniformName)$/;"	f	class:Technique
-GetWVPTrans	pipeline.cpp	/^const Matrix4f& Pipeline::GetWVPTrans()$/;"	f	class:Pipeline
-GetWorldTrans	pipeline.cpp	/^const Matrix4f& Pipeline::GetWorldTrans()$/;"	f	class:Pipeline
-GlslHandle	j7.cpp	/^enum GlslHandle { Position=0, TexCoord, Normal };$/;"	g	file:
-Height	pipeline.h	/^        float Height;$/;"	m	struct:Pipeline::__anon1
-INIT_SHADER_GUARD	InitShader.h	4;"	d
-INVALID_UNIFORM_LOCATION	technique.h	54;"	d
-IdleCB	tutorial21.cpp	/^    virtual void IdleCB()$/;"	f	class:Tutorial21
-Init	lighting_technique.cpp	/^bool LightingTechnique::Init(const char* vshader, const char* fshader)$/;"	f	class:LightingTechnique
-Init	technique.cpp	/^bool Technique::Init()$/;"	f	class:Technique
-Init	tutorial21.cpp	/^    bool Init()$/;"	f	class:Tutorial21
-InitCameraTransform	math_3d.cpp	/^void Matrix4f::InitCameraTransform(const Vector3f& Target, const Vector3f& Up)$/;"	f	class:Matrix4f
-InitIdentity	math_3d.h	/^    inline void InitIdentity()$/;"	f	class:Matrix4f
-InitPersProjTransform	math_3d.cpp	/^void Matrix4f::InitPersProjTransform(float FOV, float Width, float Height, float zNear, float zFar)$/;"	f	class:Matrix4f
-InitRotateTransform	math_3d.cpp	/^void Matrix4f::InitRotateTransform(float RotateX, float RotateY, float RotateZ)$/;"	f	class:Matrix4f
-InitScaleTransform	math_3d.cpp	/^void Matrix4f::InitScaleTransform(float ScaleX, float ScaleY, float ScaleZ)$/;"	f	class:Matrix4f
-InitShader	InitShader.cpp	/^InitShader(const char* vShaderFile, const char* fShaderFile)$/;"	f
-InitTranslationTransform	math_3d.cpp	/^void Matrix4f::InitTranslationTransform(float x, float y, float z)$/;"	f	class:Matrix4f
-KeyboardCB	tutorial21.cpp	/^    virtual void KeyboardCB(unsigned char Key, int x, int y)$/;"	f	class:Tutorial21
-LIGHTING_TECHNIQUE_H	lighting_technique.h	19;"	d
-Lighting	j7.cpp	/^struct Lighting {$/;"	s	file:
-LightingTechnique	lighting_technique.cpp	/^LightingTechnique::LightingTechnique()$/;"	f	class:LightingTechnique
-LightingTechnique	lighting_technique.h	/^class LightingTechnique : public Technique {$/;"	c
-Linear	lighting_technique.h	/^            GLuint Linear;$/;"	m	struct:LightingTechnique::__anon5::__anon6
-Linear	lighting_technique.h	/^            GLuint Linear;$/;"	m	struct:LightingTechnique::__anon7::__anon8
-Linear	lighting_technique.h	/^        float Linear;$/;"	m	struct:PointLight::__anon3
-Load	texture.cpp	/^bool Texture::Load()$/;"	f	class:Texture
-MATH_3D_H	math_3d.h	20;"	d
-MAX_POINT_LIGHTS	lighting_technique.h	/^    static const unsigned int MAX_POINT_LIGHTS = 2;$/;"	m	class:LightingTechnique
-MAX_SPOT_LIGHTS	lighting_technique.h	/^    static const unsigned int MAX_SPOT_LIGHTS = 2;$/;"	m	class:LightingTechnique
-Matrix4f	math_3d.h	/^    Matrix4f()$/;"	f	class:Matrix4f
-Matrix4f	math_3d.h	/^    Matrix4f(const glm::mat4& gm)$/;"	f	class:Matrix4f
-Matrix4f	math_3d.h	/^class Matrix4f$/;"	c
-MyAssimp	j7.old.cpp	/^MyAssimp(const std::string& fname, unsigned int pFlags) $/;"	f	struct:MyAssimp
-MyAssimp	j7.old.cpp	/^\/* old *\/ struct MyAssimp {$/;"	s	file:
-None	j7.cpp	/^enum Shape { None=0, ConvexHull, TriangleMesh };$/;"	e	enum:Shape	file:
-Normal	j7.cpp	/^enum GlslHandle { Position=0, TexCoord, Normal };$/;"	e	enum:GlslHandle	file:
-Normalize	math_3d.cpp	/^Vector3f& Vector3f::Normalize()$/;"	f	class:Vector3f
-Normalize	math_3d.cpp	/^void Quaternion::Normalize()$/;"	f	class:Quaternion
-Obj	j7.cpp	/^  Obj($/;"	f	struct:Obj
-Obj	j7.cpp	/^struct Obj {$/;"	s	file:
-PIPELINE_H	pipeline.h	19;"	d
-PassiveMouseCB	tutorial21.cpp	/^    virtual void PassiveMouseCB(int x, int y)$/;"	f	class:Tutorial21
-Pause	j7.cpp	/^enum { Quit=1, Pause, Resume };$/;"	e	enum:__anon10	file:
-Pipeline	pipeline.h	/^    Pipeline()$/;"	f	class:Pipeline
-Pipeline	pipeline.h	/^class Pipeline$/;"	c
-Point	j7.cpp	/^  Point() {}$/;"	f	struct:Point
-Point	j7.cpp	/^  Point(const glm::vec3& v, const glm::vec3& f, const glm::vec3& n) $/;"	f	struct:Point
-Point	j7.cpp	/^struct Point {$/;"	s	file:
-PointLight	lighting_technique.h	/^    PointLight()$/;"	f	struct:PointLight
-PointLight	lighting_technique.h	/^struct PointLight : public BaseLight$/;"	s
-Pos	pipeline.h	/^        Vector3f Pos;$/;"	m	struct:Pipeline::__anon2
-Position	j7.cpp	/^enum GlslHandle { Position=0, TexCoord, Normal };$/;"	e	enum:GlslHandle	file:
-Position	lighting_technique.h	/^        GLuint Position;$/;"	m	struct:LightingTechnique::__anon5
-Position	lighting_technique.h	/^        GLuint Position;$/;"	m	struct:LightingTechnique::__anon7
-Position	lighting_technique.h	/^    Vector3f Position;$/;"	m	struct:PointLight
-Print	math_3d.h	/^    void Print() const$/;"	f	struct:Vector3f
-Quaternion	math_3d.cpp	/^Quaternion::Quaternion(float _x, float _y, float _z, float _w)$/;"	f	class:Quaternion
-Quaternion	math_3d.h	/^struct Quaternion$/;"	s
-Quit	j7.cpp	/^enum { Quit=1, Pause, Resume };$/;"	e	enum:__anon10	file:
-RenderSceneCB	tutorial21.cpp	/^    virtual void RenderSceneCB()$/;"	f	class:Tutorial21
-Resume	j7.cpp	/^enum { Quit=1, Pause, Resume };$/;"	e	enum:__anon10	file:
-Rotate	math_3d.cpp	/^void Vector3f::Rotate(float Angle, const Vector3f& Axe)$/;"	f	class:Vector3f
-Rotate	pipeline.h	/^    void Rotate(float RotateX, float RotateY, float RotateZ)$/;"	f	class:Pipeline
-RotateHelp	j7.cpp	/^  RotateHelp(int nrot) $/;"	f	struct:RotateHelp
-RotateHelp	j7.cpp	/^struct RotateHelp {$/;"	s	file:
-Run	tutorial21.cpp	/^    void Run()$/;"	f	class:Tutorial21
-Scale	pipeline.h	/^    void Scale(float ScaleX, float ScaleY, float ScaleZ)$/;"	f	class:Pipeline
-SetCamera	pipeline.h	/^    void SetCamera(const Vector3f& Pos, const Vector3f& Target, const Vector3f& Up)$/;"	f	class:Pipeline
-SetDirectionalLight	lighting_technique.cpp	/^void LightingTechnique::SetDirectionalLight(const DirectionalLight& Light)$/;"	f	class:LightingTechnique
-SetEyeWorldPos	lighting_technique.cpp	/^void LightingTechnique::SetEyeWorldPos(const Vector3f& EyeWorldPos)$/;"	f	class:LightingTechnique
-SetMatSpecularIntensity	lighting_technique.cpp	/^void LightingTechnique::SetMatSpecularIntensity(float Intensity)$/;"	f	class:LightingTechnique
-SetMatSpecularPower	lighting_technique.cpp	/^void LightingTechnique::SetMatSpecularPower(float Power)$/;"	f	class:LightingTechnique
-SetPerspectiveProj	pipeline.h	/^    void SetPerspectiveProj(float FOV, float Width, float Height, float zNear, float zFar)$/;"	f	class:Pipeline
-SetPointLights	lighting_technique.cpp	/^void LightingTechnique::SetPointLights(unsigned int NumLights, const PointLight* pLights)$/;"	f	class:LightingTechnique
-SetSpotLights	lighting_technique.cpp	/^void LightingTechnique::SetSpotLights(unsigned int NumLights, const SpotLight* pLights)$/;"	f	class:LightingTechnique
-SetTextureUnit	lighting_technique.cpp	/^void LightingTechnique::SetTextureUnit(unsigned int TextureUnit)$/;"	f	class:LightingTechnique
-SetWVP	lighting_technique.cpp	/^void LightingTechnique::SetWVP(const Matrix4f& WVP)$/;"	f	class:LightingTechnique
-SetWorldMatrix	lighting_technique.cpp	/^void LightingTechnique::SetWorldMatrix(const Matrix4f& WorldInverse)$/;"	f	class:LightingTechnique
-ShaderObjList	technique.h	/^    typedef std::list<GLuint> ShaderObjList;$/;"	t	class:Technique
-Shape	j7.cpp	/^enum Shape { None=0, ConvexHull, TriangleMesh };$/;"	g	file:
-SpecialKeyboardCB	tutorial21.cpp	/^    virtual void SpecialKeyboardCB(int Key, int x, int y)$/;"	f	class:Tutorial21
-SpotLight	lighting_technique.h	/^    SpotLight()$/;"	f	struct:SpotLight
-SpotLight	lighting_technique.h	/^struct SpotLight : public PointLight$/;"	s
-TECHNIQUE_H	technique.h	20;"	d
-TEXTURE_H	texture.h	20;"	d
-Target	pipeline.h	/^        Vector3f Target;$/;"	m	struct:Pipeline::__anon2
-Technique	technique.cpp	/^Technique::Technique()$/;"	f	class:Technique
-Technique	technique.h	/^class Technique$/;"	c
-TexCoord	j7.cpp	/^enum GlslHandle { Position=0, TexCoord, Normal };$/;"	e	enum:GlslHandle	file:
-Texture	texture.cpp	/^Texture::Texture(GLenum TextureTarget, const std::string& FileName)$/;"	f	class:Texture
-Texture	texture.h	/^class Texture$/;"	c
-ToDegree	math_3d.h	30;"	d
-ToRadian	math_3d.h	29;"	d
-TriangleMesh	j7.cpp	/^enum Shape { None=0, ConvexHull, TriangleMesh };$/;"	e	enum:Shape	file:
-Tutorial21	tutorial21.cpp	/^    Tutorial21()$/;"	f	class:Tutorial21
-Tutorial21	tutorial21.cpp	/^class Tutorial21 : public ICallbacks$/;"	c	file:
-UTIL_H	util.h	20;"	d
-Up	pipeline.h	/^        Vector3f Up;$/;"	m	struct:Pipeline::__anon2
-Vector2f	math_3d.h	/^    Vector2f()$/;"	f	struct:Vector2f
-Vector2f	math_3d.h	/^    Vector2f(float _x, float _y)$/;"	f	struct:Vector2f
-Vector2f	math_3d.h	/^struct Vector2f$/;"	s
-Vector2i	math_3d.h	/^struct Vector2i$/;"	s
-Vector3f	math_3d.h	/^    Vector3f()$/;"	f	struct:Vector3f
-Vector3f	math_3d.h	/^    Vector3f(float _x, float _y, float _z)$/;"	f	struct:Vector3f
-Vector3f	math_3d.h	/^struct Vector3f$/;"	s
-Vertex	tutorial21.cpp	/^    Vertex() {}$/;"	f	struct:Vertex
-Vertex	tutorial21.cpp	/^    Vertex(const Vector3f& pos, const Vector2f& tex, const Vector3f& normal)$/;"	f	struct:Vertex
-Vertex	tutorial21.cpp	/^struct Vertex$/;"	s	file:
-WINDOW_HEIGHT	tutorial21.cpp	33;"	d	file:
-WINDOW_WIDTH	tutorial21.cpp	32;"	d	file:
-Width	pipeline.h	/^        float Width;$/;"	m	struct:Pipeline::__anon1
-WorldPos	pipeline.h	/^    void WorldPos(float x, float y, float z)$/;"	f	class:Pipeline
-addrotation	j7.cpp	/^float addrotation = 0.1\/180.0*M_PI;$/;"	v
-aiVector3TObtVector3	j7.old.cpp	/^static btVector3 aiVector3TObtVector3(const aiVector3t<float>& in) $/;"	f	struct:MyAssimp
-aiVector3TobtVector3	j7.cpp	/^btVector3 aiVector3TobtVector3(const aiVector3t<float>& av)$/;"	f
-ambientIntensity	j7.cpp	/^  float ambientIntensity;$/;"	m	struct:Lighting	file:
-ballRadius	j7.cpp	/^float ballRadius = -1;$/;"	v
-ball_initial_height	j7.cpp	/^float ball_initial_height = 10; \/\/ 0 5$/;"	v
-ball_mass	j7.cpp	/^float ball_mass = 1;$/;"	v
-ball_model_matrix	j7.cpp	/^glm::mat4 ball_model_matrix;$/;"	v
-ballbody	j7.cpp	/^btRigidBody* ballbody;$/;"	v
-bco	j7.cpp	/^  btCollisionObject* bco;$/;"	m	struct:Obj	file:
-bind_shader_variables2	j7.cpp	/^bool bind_shader_variables2(GLuint h_program)$/;"	f
-boardMass	j7.cpp	/^float boardMass=1000;$/;"	v
-board_mass	j7.cpp	/^float board_mass = 100;$/;"	v
-board_model_matrix	j7.cpp	/^glm::mat4 board_model_matrix;$/;"	v
-board_rigid_bodies	j7.cpp	/^std::vector<btRigidBody*> board_rigid_bodies;$/;"	v
-bt_triangles	j7.cpp	/^  btTriangleMesh bt_triangles;$/;"	m	struct:Obj	file:
-bulletBallBody	j7.cpp	/^btRigidBody* bulletBallBody = NULL;$/;"	v
-bulletBoardBody	j7.cpp	/^btRigidBody* bulletBoardBody = NULL;$/;"	v
-centerOfMass	j7.old.cpp	/^  aiVector3t<float> centerOfMass()$/;"	f	struct:MyAssimp
-centerOfMassOfSimpleClosedPolygon	j7.cpp	/^glm::vec3 centerOfMassOfSimpleClosedPolygon(const std::string& fname)$/;"	f
-centerOfMassOfTriangles	j7.old.cpp	/^btVector3 centerOfMassOfTriangles(const Triangles& t) \/\/ Should NOT work for non-spherical objects$/;"	f
-color	j7.cpp	/^  glm::vec3 color;$/;"	m	struct:Point	file:
-colorizeByVertexPosition	j7.cpp	/^  void colorizeByVertexPosition()$/;"	f	struct:Obj
-createBulletObject	j7.cpp	/^  void createBulletObject(Shape shape)$/;"	f	struct:Obj
-createMenu	j7.cpp	/^void createMenu(void)$/;"	f
-createPoints	j7.cpp	/^  void createPoints(const std::string& fname)$/;"	f	struct:Obj
-createTriangles	j7.old.cpp	/^std::vector<Triangle<GLfloat> > createTriangles()$/;"	f	struct:MyAssimp
-createTrianglesRecursive	j7.old.cpp	/^  void createTrianglesRecursive(std::vector<Triangle<GLfloat> >& triangles, const struct aiScene *sc, const struct aiNode* node)$/;"	f	struct:MyAssimp
-data	j7.cpp	/^  std::vector<Point> data;$/;"	m	struct:Obj	file:
-debug_print_bullet_body_transform_matrix	j7.cpp	/^void debug_print_bullet_body_transform_matrix(btRigidBody* body)$/;"	f
-display	j7.cpp	/^void display()$/;"	f
-distance	j7.cpp	/^float distance(glm::vec3 u, glm::vec3 v)$/;"	f
-draw	j7.cpp	/^  void draw() \/\/ fixme take handles as parameters$/;"	f	struct:Obj
-dynamicsWorld	j7.cpp	/^btDiscreteDynamicsWorld* dynamicsWorld;$/;"	v
-end_height	j7.cpp	/^float end_height = 10;$/;"	v
-face	j7.cpp	/^  glm::vec3 face; \/\/ fixme ; need this ? $/;"	m	struct:Point	file:
-gProj	j7.cpp	/^glm::mat4 gProj, gWVP, gWorld;$/;"	v
-gWVP	j7.cpp	/^glm::mat4 gProj, gWVP, gWorld;$/;"	v
-gWorld	j7.cpp	/^glm::mat4 gProj, gWVP, gWorld;$/;"	v
-game_done	j7.cpp	/^bool game_done = false;$/;"	v
-game_pause	j7.cpp	/^bool game_pause = false;$/;"	v
-getDT	j7.cpp	/^float getDT()$/;"	f
-getOglTransformMatrix	j7.cpp	/^glm::mat4 getOglTransformMatrix(btRigidBody* body)$/;"	f
-gfriction	j7.cpp	/^float gfriction = 0.1;$/;"	v
-glmvec3_to_btVector3	j7.cpp	/^btVector3 glmvec3_to_btVector3(const glm::vec3& v)$/;"	f
-glutStuff	j7.cpp	/^void glutStuff(int argc, const char *argv[])$/;"	f
-grestitution	j7.cpp	/^float grestitution = 0.8;$/;"	v
-h	j7.cpp	/^int w = 500, h = 500;     \/\/ Window size$/;"	v
-h_AmbientProduct	j7.cpp	/^h_AmbientProduct,$/;"	v
-h_DiffuseProduct	j7.cpp	/^h_DiffuseProduct,$/;"	v
-h_LightPosition	j7.cpp	/^GLint h_LightPosition,$/;"	v
-h_Shineness	j7.cpp	/^h_Shineness; $/;"	v
-h_SpecularProduct	j7.cpp	/^h_SpecularProduct,$/;"	v
-h_gWVP	j7.cpp	/^GLint h_gWorld, h_gWVP;$/;"	v
-h_gWorld	j7.cpp	/^GLint h_gWorld, h_gWVP;$/;"	v
-h_mvp	j7.cpp	/^GLint h_mvp  = -1;    $/;"	v
-h_normal	j7.cpp	/^GLint h_normal;$/;"	v
-h_program	j7.cpp	/^GLuint h_program; \/\/ GLSL h_program handle$/;"	v
-h_vcolor	j7.cpp	/^GLint h_vcolor = -1;$/;"	v
-h_vpos	j7.cpp	/^GLint h_vpos = -1;$/;"	v
-idle	j7.cpp	/^void idle()$/;"	f
-importer	j7.cpp	/^  Assimp::Importer importer;$/;"	m	struct:Obj	file:
-importer	j7.old.cpp	/^  Assimp::Importer importer;$/;"	m	struct:MyAssimp	file:
-incremental_rotation	j7.cpp	/^  static float incremental_rotation;$/;"	m	struct:RotateHelp	file:
-incremental_rotation	j7.cpp	/^float RotateHelp::incremental_rotation = 0.24 ;$/;"	m	class:RotateHelp	file:
-init_shader_variables	j7.cpp	/^void init_shader_variables()$/;"	f
-is_game_complete	j7.cpp	/^bool is_game_complete(btRigidBody* body) $/;"	f
-keyDown	j7.cpp	/^void keyDown(unsigned char key, int x, int y)$/;"	f
-keySpecialDown	j7.cpp	/^void keySpecialDown(int key, int x, int y)$/;"	f
-keySpecialUp	j7.cpp	/^void keySpecialUp(int key, int x, int y)$/;"	f
-keyUp	j7.cpp	/^void keyUp(unsigned char key, int x, int y)$/;"	f
-light	j7.cpp	/^LightingTechnique* light;$/;"	v
-look_eyepos	j7.cpp	/^glm::vec3 look_eyepos = glm::vec3(0, 20.0, 0);    \/\/ Eye Position$/;"	v
-m	math_3d.h	/^    float m[4][4];$/;"	m	class:Matrix4f
-m_VBO	tutorial21.cpp	/^    GLuint m_VBO;$/;"	m	class:Tutorial21	file:
-m_WVPLocation	lighting_technique.h	/^    GLuint m_WVPLocation;$/;"	m	class:LightingTechnique
-m_WVPtransformation	pipeline.h	/^    Matrix4f m_WVPtransformation;$/;"	m	class:Pipeline
-m_WorldMatrixLocation	lighting_technique.h	/^    GLuint m_WorldMatrixLocation;$/;"	m	class:LightingTechnique
-m_WorldTransformation	pipeline.h	/^    Matrix4f m_WorldTransformation;$/;"	m	class:Pipeline
-m_blob	texture.h	/^    Magick::Blob m_blob;$/;"	m	class:Texture
-m_camera	pipeline.h	/^    } m_camera;$/;"	m	class:Pipeline	typeref:struct:Pipeline::__anon2
-m_dirLightLocation	lighting_technique.h	/^    } m_dirLightLocation;$/;"	m	class:LightingTechnique	typeref:struct:LightingTechnique::__anon4
-m_directionalLight	tutorial21.cpp	/^    DirectionalLight m_directionalLight;$/;"	m	class:Tutorial21	file:
-m_eyeWorldPosLocation	lighting_technique.h	/^    GLuint m_eyeWorldPosLocation;$/;"	m	class:LightingTechnique
-m_fileName	texture.h	/^    std::string m_fileName;$/;"	m	class:Texture
-m_matSpecularIntensityLocation	lighting_technique.h	/^    GLuint m_matSpecularIntensityLocation;$/;"	m	class:LightingTechnique
-m_matSpecularPowerLocation	lighting_technique.h	/^    GLuint m_matSpecularPowerLocation;$/;"	m	class:LightingTechnique
-m_normal	tutorial21.cpp	/^    Vector3f m_normal;$/;"	m	struct:Vertex	file:
-m_numPointLightsLocation	lighting_technique.h	/^    GLuint m_numPointLightsLocation;$/;"	m	class:LightingTechnique
-m_numSpotLightsLocation	lighting_technique.h	/^    GLuint m_numSpotLightsLocation;$/;"	m	class:LightingTechnique
-m_pEffect	tutorial21.cpp	/^    LightingTechnique* m_pEffect;$/;"	m	class:Tutorial21	file:
-m_pGameCamera	tutorial21.cpp	/^    Camera* m_pGameCamera;$/;"	m	class:Tutorial21	file:
-m_pImage	texture.h	/^    Magick::Image* m_pImage;$/;"	m	class:Texture
-m_pTexture	tutorial21.cpp	/^    Texture* m_pTexture;$/;"	m	class:Tutorial21	file:
-m_persProj	pipeline.h	/^    } m_persProj;$/;"	m	class:Pipeline	typeref:struct:Pipeline::__anon1
-m_pointLightsLocation	lighting_technique.h	/^    } m_pointLightsLocation[MAX_POINT_LIGHTS];$/;"	m	class:LightingTechnique	typeref:struct:LightingTechnique::__anon5
-m_pos	tutorial21.cpp	/^    Vector3f m_pos;$/;"	m	struct:Vertex	file:
-m_rotateInfo	pipeline.h	/^    Vector3f m_rotateInfo;$/;"	m	class:Pipeline
-m_samplerLocation	lighting_technique.h	/^    GLuint m_samplerLocation;$/;"	m	class:LightingTechnique
-m_scale	pipeline.h	/^    Vector3f m_scale;$/;"	m	class:Pipeline
-m_scale	tutorial21.cpp	/^    float m_scale;$/;"	m	class:Tutorial21	file:
-m_shaderObjList	technique.h	/^    ShaderObjList m_shaderObjList;$/;"	m	class:Technique
-m_shaderProg	technique.h	/^    GLuint m_shaderProg;$/;"	m	class:Technique
-m_spotLightsLocation	lighting_technique.h	/^    } m_spotLightsLocation[MAX_SPOT_LIGHTS];$/;"	m	class:LightingTechnique	typeref:struct:LightingTechnique::__anon7
-m_tex	tutorial21.cpp	/^    Vector2f m_tex;$/;"	m	struct:Vertex	file:
-m_textureObj	texture.h	/^    GLuint m_textureObj;$/;"	m	class:Texture
-m_textureTarget	texture.h	/^    GLenum m_textureTarget;$/;"	m	class:Texture
-m_worldPos	pipeline.h	/^    Vector3f m_worldPos;$/;"	m	class:Pipeline
-main	j7.cpp	/^int main(int argc, const char *argv[])$/;"	f
-main	tutorial21.cpp	/^int main(int argc, char** argv)$/;"	f
-max_coords	j7.cpp	/^glm::vec3 max_coords = glm::vec3(10,10,10);$/;"	v
-max_num_to_rotate	j7.cpp	/^  static int max_num_to_rotate;$/;"	m	struct:RotateHelp	file:
-max_num_to_rotate	j7.cpp	/^int RotateHelp::max_num_to_rotate = 100;$/;"	m	class:RotateHelp	file:
-menu	j7.cpp	/^void menu(int id){$/;"	f
-n	j7.cpp	/^float n = 30;$/;"	v
-name	j7.cpp	/^  std::string name;$/;"	m	struct:Obj	file:
-normal	j7.cpp	/^  glm::vec3 normal;$/;"	m	struct:Point	file:
-num_rotated	j7.cpp	/^  int num_rotated;$/;"	m	struct:RotateHelp	file:
-num_to_rotate	j7.cpp	/^  int num_to_rotate;$/;"	m	struct:RotateHelp	file:
-num_triangles	j7.cpp	/^  size_t num_triangles; \/\/ keep size here so that glDrawArrays can be used without vector<Point>$/;"	m	struct:Obj	file:
-objs	j7.cpp	/^std::vector<Obj> objs;$/;"	v
-oglMatrixToGLMMatrix4x4	j7.cpp	/^glm::mat4 oglMatrixToGLMMatrix4x4(btScalar* m)$/;"	f
-operator *	math_3d.cpp	/^Quaternion operator*(const Quaternion& l, const Quaternion& r)$/;"	f
-operator *	math_3d.cpp	/^Quaternion operator*(const Quaternion& q, const Vector3f& v)$/;"	f
-operator *	math_3d.h	/^    inline Matrix4f operator*(const Matrix4f& Right) const$/;"	f	class:Matrix4f
-operator *	math_3d.h	/^inline Vector3f operator*(const Vector3f& l, float f)$/;"	f
-operator *=	math_3d.h	/^    Vector3f& operator*=(float f)$/;"	f	struct:Vector3f
-operator +	math_3d.h	/^inline Vector3f operator+(const Vector3f& l, const Vector3f& r)$/;"	f
-operator +=	j7.cpp	/^  RotateHelp& operator+=(const RotateHelp& o)$/;"	f	struct:RotateHelp
-operator +=	math_3d.h	/^    Vector3f& operator+=(const Vector3f& r)$/;"	f	struct:Vector3f
-operator -	math_3d.h	/^inline Vector3f operator-(const Vector3f& l, const Vector3f& r)$/;"	f
-operator -=	math_3d.h	/^    Vector3f& operator-=(const Vector3f& r)$/;"	f	struct:Vector3f
-operator <<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const aiVector3t<float>& v)$/;"	f
-operator <<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const btVector3& v)$/;"	f
-operator <<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const glm::mat4& m)$/;"	f
-operator <<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const glm::vec3& v)$/;"	f
-pTexture	j7.cpp	/^  pTexture = new Texture(GL_TEXTURE_2D, "test.png"); \/\/m$/;"	m	struct:Obj	file:
-pball	j7.cpp	/^Obj* pball=NULL;$/;"	v
-pboard	j7.cpp	/^Obj* pboard=NULL;$/;"	v
-rangle	j7.cpp	/^GLfloat rangle = 10;      \/\/ angle to rotate$/;"	v
-readShaderSource	InitShader.cpp	/^readShaderSource(const char* shaderFile)$/;"	f
-reshape	j7.cpp	/^void reshape(int w, int h)$/;"	f
-rigidbody	j7.cpp	/^  btRigidBody* rigidbody;$/;"	m	struct:Obj	file:
-rotateBody	j7.cpp	/^  void rotateBody(const btScalar& yaw, const btScalar& roll, const btScalar& pitch)$/;"	f	struct:Obj
-rotateBody	j7.cpp	/^void rotateBody( btRigidBody* rb, const btScalar& yaw, const btScalar& roll, const btScalar& pitch)$/;"	f
-rotate_angle	j7.cpp	/^  float rotate_angle(int increments)$/;"	f	struct:RotateHelp
-rotation	j7.cpp	/^float rotation = 0; $/;"	v
-rotationAngle	j7.cpp	/^float rotationAngle=0.1;$/;"	v
-rotationFactor	j7.cpp	/^float rotationFactor = 0.1;$/;"	v
-rotationHorizontal	j7.cpp	/^float rotationHorizontal = 0, rotationVertical = 0;$/;"	v
-rotationVertical	j7.cpp	/^float rotationHorizontal = 0, rotationVertical = 0;$/;"	v
-scene	j7.old.cpp	/^  aiScene* scene;$/;"	m	struct:MyAssimp	file:
-set_name	j7.cpp	/^  void set_name(const std::string& n) $/;"	f	struct:Obj
-set_texture	j7.cpp	/^  bool set_texture()$/;"	f	struct:Obj
-t1	j7.cpp	/^std::chrono::time_point<std::chrono::high_resolution_clock> t1,t2;$/;"	v
-t2	j7.cpp	/^std::chrono::time_point<std::chrono::high_resolution_clock> t1,t2;$/;"	v
-tex	j7.cpp	/^  Texture* tex;$/;"	m	struct:Obj	file:
-texture	j7.cpp	/^  glm::vec2 texture;$/;"	m	struct:Point	file:
-updateModelMatrix	j7.cpp	/^  void updateModelMatrix()$/;"	f	struct:Obj
-vbo	j7.cpp	/^  GLuint vbo;$/;"	m	struct:Obj	file:
-vertex	j7.cpp	/^  glm::vec3 vertex; $/;"	m	struct:Point	file:
-view	j7.cpp	/^glm::mat4 view;$/;"	v
-w	j7.cpp	/^int w = 500, h = 500;     \/\/ Window size$/;"	v
-w	math_3d.h	/^    float x, y, z, w;$/;"	m	struct:Quaternion
-world_gravity	j7.cpp	/^float world_gravity= -5;$/;"	v
-world_matrix	j7.cpp	/^  glm::mat4 world_matrix;$/;"	m	struct:Obj	file:
-x	math_3d.h	/^    float x, y, z, w;$/;"	m	struct:Quaternion
-x	math_3d.h	/^    float x;$/;"	m	struct:Vector2f
-x	math_3d.h	/^    float x;$/;"	m	struct:Vector3f
-x	math_3d.h	/^    int x;$/;"	m	struct:Vector2i
-y	math_3d.h	/^    float x, y, z, w;$/;"	m	struct:Quaternion
-y	math_3d.h	/^    float y;$/;"	m	struct:Vector2f
-y	math_3d.h	/^    float y;$/;"	m	struct:Vector3f
-y	math_3d.h	/^    int y;$/;"	m	struct:Vector2i
-z	math_3d.h	/^    float x, y, z, w;$/;"	m	struct:Quaternion
-z	math_3d.h	/^    float z;$/;"	m	struct:Vector3f
-zFar	pipeline.h	/^        float zFar;$/;"	m	struct:Pipeline::__anon1
-zNear	pipeline.h	/^        float zNear;$/;"	m	struct:Pipeline::__anon1
-~MyAssimp	j7.old.cpp	/^~MyAssimp() $/;"	f	struct:MyAssimp
-~Technique	technique.cpp	/^Technique::~Technique()$/;"	f	class:Technique
-~Tutorial21	tutorial21.cpp	/^    ~Tutorial21()$/;"	f	class:Tutorial21
+::Ball	j7.cpp	476
+::Board	j7.cpp	476
+::Pause	j7.cpp	1094
+::Quit	j7.cpp	1094
+::Resume	j7.cpp	1094
+::XMinus	j7.cpp	1094
+::XPlus	j7.cpp	1094
+::YMinus	j7.cpp	1094
+::YPlus	j7.cpp	1094
+::ZMinus	j7.cpp	1094
+::ZPlus	j7.cpp	1094
+ARRAY_SIZE_IN_ELEMENTS	util.h	/^#define ARRAY_SIZE_IN_ELEMENTS(a) (sizeof(a)\/sizeo/
+AmbientIntensity	lighting_technique.h	28
+Attenuation	lighting_technique.h	58
+BOXWALL_H	boxWall.h	2
+BaseLight	lighting_technique.h	25
+BaseLight	lighting_technique.h	/^    BaseLight()$/
+Color	lighting_technique.h	27
+Constant	lighting_technique.h	55
+Cross	math_3d.h	/^    Vector3f Cross(const Vector3f& v) const;$/
+Cutoff	lighting_technique.h	72
+DiffuseIntensity	lighting_technique.h	29
+Direction	lighting_technique.h	41
+Direction	lighting_technique.h	71
+DirectionalLight	lighting_technique.h	39
+DirectionalLight	lighting_technique.h	/^    DirectionalLight()$/
+Dragon	main-afterLighting.cpp	106
+Dragon	main-backup.cpp	65
+Dragon	main-backup2.cpp	76
+Dragon	main-beforeLighting.cpp	86
+Dragon	main-colorful.cpp	107
+Dragon	main.cpp	111
+Exp	lighting_technique.h	57
+FieldDepth	tutorial21.cpp	51
+FieldWidth	tutorial21.cpp	52
+Finish	main-afterLighting.cpp	105
+Finish	main-backup.cpp	64
+Finish	main-backup2.cpp	75
+Finish	main-beforeLighting.cpp	85
+Finish	main-colorful.cpp	106
+GetAttribLocation	j7.cpp	/^GLint GetAttribLocation(GLint h_prog, const char* /
+GetUniformLocation	j7.cpp	/^GLint GetUniformLocation(GLint h_prog, const char*/
+GlslHandle	j7.cpp	266
+GlslHandle::Normal	j7.cpp	266
+GlslHandle::Position	j7.cpp	266
+GlslHandle::TexCoord	j7.cpp	266
+INIT_SHADER_GUARD	InitShader.h	4
+INVALID_UNIFORM_LOCATION	technique.h	54
+InitShader	InitShader.cpp	/^InitShader(const char* vShaderFile, const char* fS/
+LIGHTING_TECHNIQUE_H	lighting_technique.h	19
+LightingTechnique	lighting_technique.h	81
+LightingTechnique::AmbientIntensity	lighting_technique.h	115
+LightingTechnique::AmbientIntensity	lighting_technique.h	122
+LightingTechnique::AmbientIntensity	lighting_technique.h	134
+LightingTechnique::Atten	lighting_technique.h	129
+LightingTechnique::Atten	lighting_technique.h	143
+LightingTechnique::Color	lighting_technique.h	114
+LightingTechnique::Color	lighting_technique.h	121
+LightingTechnique::Color	lighting_technique.h	133
+LightingTechnique::Constant	lighting_technique.h	126
+LightingTechnique::Constant	lighting_technique.h	140
+LightingTechnique::Cutoff	lighting_technique.h	138
+LightingTechnique::DiffuseIntensity	lighting_technique.h	116
+LightingTechnique::DiffuseIntensity	lighting_technique.h	123
+LightingTechnique::DiffuseIntensity	lighting_technique.h	135
+LightingTechnique::Direction	lighting_technique.h	117
+LightingTechnique::Direction	lighting_technique.h	137
+LightingTechnique::Exp	lighting_technique.h	128
+LightingTechnique::Exp	lighting_technique.h	142
+LightingTechnique::Init	lighting_technique.cpp	/^bool LightingTechnique::Init(const char* vshader, /
+LightingTechnique::LightingTechnique	lighting_technique.cpp	/^LightingTechnique::LightingTechnique()$/
+LightingTechnique::Linear	lighting_technique.h	127
+LightingTechnique::Linear	lighting_technique.h	141
+LightingTechnique::MAX_POINT_LIGHTS	lighting_technique.h	84
+LightingTechnique::MAX_SPOT_LIGHTS	lighting_technique.h	85
+LightingTechnique::Position	lighting_technique.h	124
+LightingTechnique::Position	lighting_technique.h	136
+LightingTechnique::SetDirectionalLight	lighting_technique.cpp	/^void LightingTechnique::SetDirectionalLight(const /
+LightingTechnique::SetEyeWorldPos	lighting_technique.cpp	/^void LightingTechnique::SetEyeWorldPos(const Vecto/
+LightingTechnique::SetMatSpecularIntensity	lighting_technique.cpp	/^void LightingTechnique::SetMatSpecularIntensity(fl/
+LightingTechnique::SetMatSpecularPower	lighting_technique.cpp	/^void LightingTechnique::SetMatSpecularPower(float /
+LightingTechnique::SetPointLights	lighting_technique.cpp	/^void LightingTechnique::SetPointLights(unsigned in/
+LightingTechnique::SetSpotLights	lighting_technique.cpp	/^void LightingTechnique::SetSpotLights(unsigned int/
+LightingTechnique::SetTextureUnit	lighting_technique.cpp	/^void LightingTechnique::SetTextureUnit(unsigned in/
+LightingTechnique::SetWVP	lighting_technique.cpp	/^void LightingTechnique::SetWVP(const Matrix4f& WVP/
+LightingTechnique::SetWorldMatrix	lighting_technique.cpp	/^void LightingTechnique::SetWorldMatrix(const Matri/
+LightingTechnique::m_WVPLocation	lighting_technique.h	104
+LightingTechnique::m_WorldMatrixLocation	lighting_technique.h	105
+LightingTechnique::m_dirLightLocation	lighting_technique.h	118
+LightingTechnique::m_eyeWorldPosLocation	lighting_technique.h	107
+LightingTechnique::m_matSpecularIntensityLocation	lighting_technique.h	108
+LightingTechnique::m_matSpecularPowerLocation	lighting_technique.h	109
+LightingTechnique::m_numPointLightsLocation	lighting_technique.h	110
+LightingTechnique::m_numSpotLightsLocation	lighting_technique.h	111
+LightingTechnique::m_pointLightsLocation	lighting_technique.h	130
+LightingTechnique::m_samplerLocation	lighting_technique.h	106
+LightingTechnique::m_spotLightsLocation	lighting_technique.h	144
+Linear	lighting_technique.h	56
+MATH_3D_H	math_3d.h	20
+MAX_BALL	main-afterLighting.cpp	84
+MAX_BALL	main-backup.cpp	49
+MAX_BALL	main-backup2.cpp	60
+MAX_BALL	main-beforeLighting.cpp	65
+MAX_BALL	main-colorful.cpp	85
+MAX_BALL	main-zzzzzzz.cpp	79
+MAX_BALL_X	main.cpp	86
+MAX_BALL_Z	main.cpp	87
+MAX_ROT	main-afterLighting.cpp	83
+MAX_ROT	main-backup.cpp	48
+MAX_ROT	main-backup2.cpp	59
+MAX_ROT	main-beforeLighting.cpp	64
+MAX_ROT	main-colorful.cpp	84
+MAX_ROT	main-zzzzzzz.cpp	78
+MAX_ROT	main.cpp	85
+MIN_DISTANCE	main-afterLighting.cpp	89
+MIN_DISTANCE	main-backup.cpp	54
+MIN_DISTANCE	main-backup2.cpp	65
+MIN_DISTANCE	main-beforeLighting.cpp	70
+MIN_DISTANCE	main-colorful.cpp	90
+MIN_DISTANCE	main-zzzzzzz.cpp	84
+MIN_DISTANCE	main.cpp	92
+MOUSE_MOVING	main-afterLighting.cpp	92
+MOUSE_MOVING	main-backup.cpp	57
+MOUSE_MOVING	main-backup2.cpp	68
+MOUSE_MOVING	main-beforeLighting.cpp	73
+MOUSE_MOVING	main-colorful.cpp	93
+MOUSE_MOVING	main-zzzzzzz.cpp	89
+MOUSE_MOVING	main.cpp	98
+MVP_ID	main-afterLighting.cpp	52
+MVP_ID	main-beforeLighting.cpp	50
+MVP_ID	main-colorful.cpp	52
+MVP_ID	main-zzzzzzz.cpp	53
+MVP_ID	main.cpp	51
+MVP_ID2	main-afterLighting.cpp	63
+MVP_ID2	main-colorful.cpp	63
+MVP_ID2	main.cpp	62
+Master	master.cpp	36
+Master::Master	master.cpp	/^Master( const char* fName, const char* myName, con/
+Master::colorizeByVertexPosition	master.cpp	/^void colorizeByVertexPosition()$/
+Master::data	master.cpp	39
+Master::fileName	master.cpp	42
+Master::importer	master.cpp	45
+Master::iterator	master.cpp	142
+Master::loadObject	master.cpp	/^void loadObject()$/
+Master::name	master.cpp	43
+Master::vbo	master.cpp	47
+Matrix4f	math_3d.h	140
+Matrix4f::InitCameraTransform	math_3d.cpp	/^void Matrix4f::InitCameraTransform(const Vector3f&/
+Matrix4f::InitIdentity	math_3d.h	/^    inline void InitIdentity()$/
+Matrix4f::InitPersProjTransform	math_3d.cpp	/^void Matrix4f::InitPersProjTransform(float FOV, fl/
+Matrix4f::InitRotateTransform	math_3d.cpp	/^void Matrix4f::InitRotateTransform(float RotateX, /
+Matrix4f::InitScaleTransform	math_3d.cpp	/^void Matrix4f::InitScaleTransform(float ScaleX, fl/
+Matrix4f::InitTranslationTransform	math_3d.cpp	/^void Matrix4f::InitTranslationTransform(float x, f/
+Matrix4f::Matrix4f	math_3d.h	/^    Matrix4f()$/
+Matrix4f::Matrix4f	math_3d.h	/^    Matrix4f(const glm::mat4& gm)$/
+Matrix4f::m	math_3d.h	143
+Matrix4f::operator*	math_3d.h	/^    inline Matrix4f operator*(const Matrix4f& Righ/
+Mj7.cpp	j7.cpp	/^int main(int argc, const char *argv[])$/
+Mmain-afterLighting.cpp	main-afterLighting.cpp	/^int main(int argc, char **argv)$/
+Mmain-backup.cpp	main-backup.cpp	/^int main(int argc, char **argv)$/
+Mmain-backup2.cpp	main-backup2.cpp	/^int main(int argc, char **argv)$/
+Mmain-beforeLighting.cpp	main-beforeLighting.cpp	/^int main(int argc, char **argv)$/
+Mmain-colorful.cpp	main-colorful.cpp	/^int main(int argc, char **argv)$/
+Mmain.cpp	main.cpp	/^int main(int argc, char **argv)$/
+Model_ID	main-afterLighting.cpp	54
+Model_ID	main-beforeLighting.cpp	52
+Model_ID	main-colorful.cpp	54
+Model_ID	main-zzzzzzz.cpp	55
+Model_ID	main.cpp	53
+Mtutorial21.cpp	tutorial21.cpp	/^int main(int argc, char** argv)$/
+MyAssimp	j7.old.cpp	312
+MyAssimp::MyAssimp	j7.old.cpp	/^MyAssimp(const std::string& fname, unsigned int pF/
+MyAssimp::importer	j7.old.cpp	314
+MyAssimp::scene	j7.old.cpp	313
+MyAssimp::~MyAssimp	j7.old.cpp	/^~MyAssimp() $/
+Obj	Object.cpp	3
+Obj	j7.cpp	499
+Obj::Obj	Object.cpp	/^  Obj($/
+Obj::Obj	j7.cpp	/^  Obj($/
+Obj::Vertex	Vertex.cpp	10
+Obj::bco	j7.cpp	509
+Obj::bt_triangles	j7.cpp	503
+Obj::colorizeByVertexPosition	j7.cpp	/^  void colorizeByVertexPosition()$/
+Obj::createBulletObject	j7.cpp	/^  void createBulletObject(Shape shape)$/
+Obj::createPoints	j7.cpp	/^  void createPoints(const std::string& fname)$/
+Obj::data	Object.cpp	5
+Obj::data	j7.cpp	501
+Obj::draw	j7.cpp	/^  void draw() \/\/ fixme take handles as parameters$/
+Obj::importer	Object.cpp	8
+Obj::importer	j7.cpp	506
+Obj::iterator	j7.cpp	707
+Obj::name	Object.cpp	11
+Obj::name	j7.cpp	510
+Obj::num_triangles	Object.cpp	6
+Obj::num_triangles	j7.cpp	502
+Obj::rigidbody	j7.cpp	504
+Obj::set_name	j7.cpp	/^  void set_name(const std::string& n) $/
+Obj::set_texture	j7.cpp	/^  bool set_texture(const std::string& FileName, GL/
+Obj::tex	Object.cpp	12
+Obj::tex	j7.cpp	511
+Obj::translateBody	j7.cpp	/^  void translateBody()$/
+Obj::updateModelMatrix	j7.cpp	/^  void updateModelMatrix()$/
+Obj::vbo	Object.cpp	9
+Obj::vbo	j7.cpp	507
+Obj::world_matrix	Object.cpp	7
+Obj::world_matrix	j7.cpp	505
+PIPELINE_H	pipeline.h	19
+Paused	main-afterLighting.cpp	87
+Paused	main-backup.cpp	52
+Paused	main-backup2.cpp	63
+Paused	main-beforeLighting.cpp	68
+Paused	main-colorful.cpp	88
+Paused	main-zzzzzzz.cpp	82
+Paused	main.cpp	90
+Pipeline	pipeline.h	23
+Pipeline::FOV	pipeline.h	80
+Pipeline::GetWVPTrans	pipeline.cpp	/^const Matrix4f& Pipeline::GetWVPTrans()$/
+Pipeline::GetWorldTrans	pipeline.cpp	/^const Matrix4f& Pipeline::GetWorldTrans()$/
+Pipeline::Height	pipeline.h	82
+Pipeline::Pipeline	pipeline.h	/^    Pipeline()$/
+Pipeline::Pos	pipeline.h	88
+Pipeline::Rotate	pipeline.h	/^    void Rotate(float RotateX, float RotateY, floa/
+Pipeline::Scale	pipeline.h	/^    void Scale(float ScaleX, float ScaleY, float S/
+Pipeline::SetCamera	pipeline.h	/^    void SetCamera(const Vector3f& Pos, const Vect/
+Pipeline::SetPerspectiveProj	pipeline.h	/^    void SetPerspectiveProj(float FOV, float Width/
+Pipeline::Target	pipeline.h	89
+Pipeline::Up	pipeline.h	90
+Pipeline::Width	pipeline.h	81
+Pipeline::WorldPos	pipeline.h	/^    void WorldPos(float x, float y, float z)$/
+Pipeline::m_WVPtransformation	pipeline.h	93
+Pipeline::m_WorldTransformation	pipeline.h	94
+Pipeline::m_camera	pipeline.h	91
+Pipeline::m_persProj	pipeline.h	85
+Pipeline::m_rotateInfo	pipeline.h	77
+Pipeline::m_scale	pipeline.h	75
+Pipeline::m_worldPos	pipeline.h	76
+Pipeline::zFar	pipeline.h	84
+Pipeline::zNear	pipeline.h	83
+Point	j7.cpp	478
+Point	master.cpp	14
+Point::Point	j7.cpp	/^  Point() {}$/
+Point::Point	j7.cpp	/^  Point(const glm::vec3& v, const glm::vec3& f, co/
+Point::Point	master.cpp	/^  Point() {}$/
+Point::Point	master.cpp	/^  Point(const glm::vec3& v, const glm::vec3& f, co/
+Point::color	j7.cpp	484
+Point::color	master.cpp	20
+Point::face	j7.cpp	482
+Point::face	master.cpp	18
+Point::normal	j7.cpp	483
+Point::normal	master.cpp	19
+Point::texture	j7.cpp	485
+Point::texture	master.cpp	21
+Point::vertex	j7.cpp	481
+Point::vertex	master.cpp	17
+PointLight	lighting_technique.h	49
+PointLight	lighting_technique.h	/^    PointLight()$/
+Position	lighting_technique.h	51
+Quaternion	math_3d.h	192
+Quaternion::Conjugate	math_3d.cpp	/^Quaternion Quaternion::Conjugate()$/
+Quaternion::Normalize	math_3d.cpp	/^void Quaternion::Normalize()$/
+Quaternion::Quaternion	math_3d.cpp	/^Quaternion::Quaternion(float _x, float _y, float _/
+Quaternion::w	math_3d.h	194
+Quaternion::x	math_3d.h	194
+Quaternion::y	math_3d.h	194
+Quaternion::z	math_3d.h	194
+ROTATIONX	main-afterLighting.cpp	79
+ROTATIONX	main-backup.cpp	44
+ROTATIONX	main-backup2.cpp	55
+ROTATIONX	main-beforeLighting.cpp	60
+ROTATIONX	main-colorful.cpp	80
+ROTATIONX	main-zzzzzzz.cpp	74
+ROTATIONX	main.cpp	81
+ROTATIONZ	main-afterLighting.cpp	80
+ROTATIONZ	main-backup.cpp	45
+ROTATIONZ	main-backup2.cpp	56
+ROTATIONZ	main-beforeLighting.cpp	61
+ROTATIONZ	main-colorful.cpp	81
+ROTATIONZ	main-zzzzzzz.cpp	75
+ROTATIONZ	main.cpp	82
+Shader	InitShader.cpp	37
+Shader::filename	InitShader.cpp	38
+Shader::source	InitShader.cpp	40
+Shader::type	InitShader.cpp	39
+Shape	j7.cpp	268
+Shape::ConvexHull	j7.cpp	268
+Shape::None	j7.cpp	268
+Shape::TriangleMesh	j7.cpp	268
+SpotLight	lighting_technique.h	69
+SpotLight	lighting_technique.h	/^    SpotLight()$/
+Start	main-afterLighting.cpp	104
+Start	main-backup.cpp	63
+Start	main-backup2.cpp	74
+Start	main-beforeLighting.cpp	84
+Start	main-colorful.cpp	105
+Start	main.cpp	110
+TECHNIQUE_H	technique.h	20
+TEXTURE_H	texture.h	20
+Technique	technique.h	26
+Technique::AddShader	technique.cpp	/^bool Technique::AddShader(GLenum ShaderType, const/
+Technique::Enable	technique.cpp	/^void Technique::Enable()$/
+Technique::Finalize	technique.cpp	/^bool Technique::Finalize()$/
+Technique::GetUniformLocation	technique.cpp	/^GLint Technique::GetUniformLocation(const char* pU/
+Technique::Init	technique.cpp	/^bool Technique::Init()$/
+Technique::ShaderObjList	technique.h	50
+Technique::Technique	technique.cpp	/^Technique::Technique()$/
+Technique::m_shaderObjList	technique.h	51
+Technique::m_shaderProg	technique.h	48
+Technique::~Technique	technique.cpp	/^Technique::~Technique()$/
+Texture	texture.h	28
+Texture::Bind	texture.cpp	/^void Texture::Bind(GLenum TextureUnit)$/
+Texture::Load	texture.cpp	/^bool Texture::Load()$/
+Texture::Texture	texture.cpp	/^Texture::Texture(GLenum TextureTarget, const std::/
+Texture::m_blob	texture.h	42
+Texture::m_fileName	texture.h	38
+Texture::m_pImage	texture.h	41
+Texture::m_textureObj	texture.h	40
+Texture::m_textureTarget	texture.h	39
+ToDegree	math_3d.h	/^#define ToDegree(x) ((x) * 180.0f \/ M_PI)$/
+ToRadian	math_3d.h	/^#define ToRadian(x) ((x) * M_PI \/ 180.0f)$/
+Tutorial21	tutorial21.cpp	54
+Tutorial21::CreateVertexBuffer	tutorial21.cpp	/^    void CreateVertexBuffer()$/
+Tutorial21::IdleCB	tutorial21.cpp	/^    virtual void IdleCB()$/
+Tutorial21::Init	tutorial21.cpp	/^    bool Init()$/
+Tutorial21::KeyboardCB	tutorial21.cpp	/^    virtual void KeyboardCB(unsigned char Key, int/
+Tutorial21::PassiveMouseCB	tutorial21.cpp	/^    virtual void PassiveMouseCB(int x, int y)$/
+Tutorial21::RenderSceneCB	tutorial21.cpp	/^    virtual void RenderSceneCB()$/
+Tutorial21::Run	tutorial21.cpp	/^    void Run()$/
+Tutorial21::SpecialKeyboardCB	tutorial21.cpp	/^    virtual void SpecialKeyboardCB(int Key, int x,/
+Tutorial21::Tutorial21	tutorial21.cpp	/^    Tutorial21()$/
+Tutorial21::m_VBO	tutorial21.cpp	238
+Tutorial21::m_directionalLight	tutorial21.cpp	243
+Tutorial21::m_pEffect	tutorial21.cpp	239
+Tutorial21::m_pGameCamera	tutorial21.cpp	241
+Tutorial21::m_pTexture	tutorial21.cpp	240
+Tutorial21::m_scale	tutorial21.cpp	242
+Tutorial21::~Tutorial21	tutorial21.cpp	/^    ~Tutorial21()$/
+UTIL_H	util.h	20
+Vector2f	math_3d.h	38
+Vector2f	math_3d.h	/^    Vector2f()$/
+Vector2f	math_3d.h	/^    Vector2f(float _x, float _y)$/
+Vector2i	math_3d.h	32
+Vector3f	math_3d.h	55
+Vector3f	math_3d.h	/^    Vector3f()$/
+Vector3f	math_3d.h	/^    Vector3f(float _x, float _y, float _z)$/
+Vector3f::Cross	math_3d.cpp	/^Vector3f Vector3f::Cross(const Vector3f& v) const$/
+Vector3f::Normalize	math_3d.cpp	/^Vector3f& Vector3f::Normalize()$/
+Vector3f::Rotate	math_3d.cpp	/^void Vector3f::Rotate(float Angle, const Vector3f&/
+Vertex	tutorial21.cpp	35
+Vertex::Vertex	tutorial21.cpp	/^    Vertex() {}$/
+Vertex::Vertex	tutorial21.cpp	/^    Vertex(const Vector3f& pos, const Vector2f& te/
+Vertex::color	Vertex.cpp	13
+Vertex::m_normal	tutorial21.cpp	39
+Vertex::m_pos	tutorial21.cpp	37
+Vertex::m_tex	tutorial21.cpp	38
+Vertex::normal	Vertex.cpp	14
+Vertex::position	Vertex.cpp	12
+View_ID	main-afterLighting.cpp	53
+View_ID	main-beforeLighting.cpp	51
+View_ID	main-colorful.cpp	53
+View_ID	main-zzzzzzz.cpp	54
+View_ID	main.cpp	52
+WINDOW_HEIGHT	tutorial21.cpp	33
+WINDOW_WIDTH	tutorial21.cpp	32
+X_COUNT	main-afterLighting.cpp	81
+X_COUNT	main-backup.cpp	46
+X_COUNT	main-backup2.cpp	57
+X_COUNT	main-beforeLighting.cpp	62
+X_COUNT	main-colorful.cpp	82
+X_COUNT	main-zzzzzzz.cpp	76
+X_COUNT	main.cpp	83
+Z_COUNT	main-afterLighting.cpp	82
+Z_COUNT	main-backup.cpp	47
+Z_COUNT	main-backup2.cpp	58
+Z_COUNT	main-beforeLighting.cpp	63
+Z_COUNT	main-colorful.cpp	83
+Z_COUNT	main-zzzzzzz.cpp	77
+Z_COUNT	main.cpp	84
+addrotation	j7.cpp	213
+aiVector3TObtVector3	j7.old.cpp	/^static btVector3 aiVector3TObtVector3(const aiVect/
+aiVector3TobtVector3	j7.cpp	/^btVector3 aiVector3TobtVector3(const aiVector3t<fl/
+ball	main-afterLighting.cpp	102
+ball	main-backup.cpp	61
+ball	main-backup2.cpp	72
+ball	main-beforeLighting.cpp	82
+ball	main-colorful.cpp	103
+ball	main.cpp	108
+ballRadius	j7.cpp	194
+ball_fname	j7.cpp	139
+ball_initial_height	j7.cpp	178
+ball_mass	j7.cpp	176
+ball_model_matrix	j7.cpp	149
+ballbody	j7.cpp	137
+bind_shader_variables2	j7.cpp	/^bool bind_shader_variables2(GLuint h_program)$/
+board	main-afterLighting.cpp	101
+board	main-backup.cpp	60
+board	main-backup2.cpp	71
+board	main-beforeLighting.cpp	81
+board	main-colorful.cpp	102
+board	main.cpp	107
+boardMass	j7.cpp	133
+board_fname	j7.cpp	140
+board_mass	j7.cpp	177
+board_model_matrix	j7.cpp	150
+board_rigid_bodies	j7.cpp	136
+boxWall	boxWall.h	5
+boxWall::bottomLeft	boxWall.h	22
+boxWall::bottomRight	boxWall.h	23
+boxWall::boxWall	boxWall.cpp	/^    boxWall::boxWall( float tl0 = 0, float tl1 = 0/
+boxWall::changeCoords	boxWall.cpp	/^    void boxWall::changeCoords( float leftX, float/
+boxWall::checkIfInside	boxWall.cpp	/^    bool boxWall::checkIfInside( float x, float z /
+boxWall::topLeft	boxWall.h	20
+boxWall::topRight	boxWall.h	21
+boxWall::whatSideHit	boxWall.cpp	/^    int boxWall::whatSideHit( float oldx, float ol/
+bulletBallBody	j7.cpp	190
+bulletBoardBody	j7.cpp	191
+centerOfMass	j7.old.cpp	/^  aiVector3t<float> centerOfMass()$/
+centerOfMassOfSimpleClosedPolygon	j7.old.cpp	/^glm::vec3 centerOfMassOfSimpleClosedPolygon(const /
+centerOfMassOfTriangles	j7.old.cpp	/^btVector3 centerOfMassOfTriangles(const Triangles&/
+checkForCollisions	main.cpp	/^int checkForCollisions( float xPos, float zPos, fl/
+checkForWalls	main-afterLighting.cpp	/^bool checkForWalls( float oldx, float oldz, float /
+checkForWalls	main-beforeLighting.cpp	/^bool checkForWalls( float oldx, float oldz, float /
+checkForWalls	main-colorful.cpp	/^bool checkForWalls( float oldx, float oldz, float /
+checkForWalls	main-zzzzzzz.cpp	/^bool checkForWalls( float oldx, float oldz, float /
+checkForWalls	main.cpp	/^bool checkForWalls( float oldx, float oldz, float /
+cleanUp	main-afterLighting.cpp	/^void cleanUp()$/
+cleanUp	main-backup.cpp	/^void cleanUp()$/
+cleanUp	main-backup2.cpp	/^void cleanUp()$/
+cleanUp	main-beforeLighting.cpp	/^void cleanUp()$/
+cleanUp	main-colorful.cpp	/^void cleanUp()$/
+cleanUp	main-zzzzzzz.cpp	/^void cleanUp()$/
+cleanUp	main.cpp	/^void cleanUp()$/
+createMenu	j7.cpp	/^void createMenu(void)$/
+createShaders	main-afterLighting.cpp	/^void createShaders( const char* vName, const char*/
+createShaders	main-colorful.cpp	/^void createShaders( const char* vName, const char*/
+createShaders	main.cpp	/^void createShaders( const char* vName, const char*/
+createTriangles	j7.old.cpp	/^std::vector<Triangle<GLfloat> > createTriangles()$/
+createTrianglesRecursive	j7.old.cpp	/^  void createTrianglesRecursive(std::vector<Triang/
+debug_print_bullet_body_transform_matrix	j7.cpp	/^void debug_print_bullet_body_transform_matrix(btRi/
+display	j7.cpp	/^void display()$/
+dist	main-afterLighting.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main-backup.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main-backup2.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main-beforeLighting.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main-colorful.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main-zzzzzzz.cpp	/^float dist( float x1, float y1, float x2, float y2/
+dist	main.cpp	/^float dist( float x1, float y1, float x2, float y2/
+distance	j7.cpp	/^float distance(glm::vec3 u, glm::vec3 v)$/
+dragonToggle	main-afterLighting.cpp	93
+dragonToggle	main-beforeLighting.cpp	74
+dragonToggle	main-colorful.cpp	94
+dragonToggle	main-zzzzzzz.cpp	90
+dragonToggle	main.cpp	99
+dynamicsWorld	j7.cpp	189
+end_height	j7.cpp	267
+eyePosition	main-zzzzzzz.cpp	86
+eyepos_y	j7.cpp	172
+floorMat	main-afterLighting.cpp	103
+floorMat	main-backup.cpp	62
+floorMat	main-backup2.cpp	73
+floorMat	main-beforeLighting.cpp	83
+floorMat	main-colorful.cpp	104
+floorMat	main.cpp	109
+gProj	j7.cpp	152
+gWVP	j7.cpp	152
+gWorld	j7.cpp	152
+game_done	j7.cpp	208
+game_pause	j7.cpp	209
+getDT	j7.cpp	/^float getDT()$/
+getDT	main-afterLighting.cpp	/^float getDT()$/
+getDT	main-backup.cpp	/^float getDT()$/
+getDT	main-backup2.cpp	/^float getDT()$/
+getDT	main-beforeLighting.cpp	/^float getDT()$/
+getDT	main-colorful.cpp	/^float getDT()$/
+getDT	main-zzzzzzz.cpp	/^float getDT()$/
+getDT	main.cpp	/^float getDT()$/
+getOglTransformMatrix	j7.cpp	/^glm::mat4 getOglTransformMatrix(btRigidBody* body)/
+gfriction	j7.cpp	211
+glmvec3_to_btVector3	j7.cpp	/^btVector3 glmvec3_to_btVector3(const glm::vec3& v)/
+glutStuff	j7.cpp	/^void glutStuff(int argc, const char *argv[])$/
+grestitution	j7.cpp	210
+h_AmbientProduct	j7.cpp	226
+h_AmbientProduct	main-zzzzzzz.cpp	96
+h_DiffuseProduct	j7.cpp	227
+h_DiffuseProduct	main-zzzzzzz.cpp	97
+h_LightPosition	j7.cpp	225
+h_LightPosition	main-zzzzzzz.cpp	95
+h_Normal	j7.cpp	224
+h_Position	j7.cpp	222
+h_Shineness	j7.cpp	229
+h_Shineness	main-zzzzzzz.cpp	99
+h_SpecularProduct	j7.cpp	228
+h_SpecularProduct	main-zzzzzzz.cpp	98
+h_TexCoord	j7.cpp	223
+h_gSampler	j7.cpp	230
+h_gSampler	main-zzzzzzz.cpp	100
+h_gWVP	j7.cpp	195
+h_gWorld	j7.cpp	195
+h_mvp	j7.cpp	145
+h_normal	j7.cpp	196
+h_program	j7.cpp	144
+h_vcolor	j7.cpp	147
+h_vpos	j7.cpp	146
+idle	j7.cpp	/^void idle()$/
+initShaderVariables	main-colorful.cpp	/^void initShaderVariables()$/
+initShaderVariables	main.cpp	/^void initShaderVariables()$/
+init_shader_variables	j7.cpp	/^void init_shader_variables()$/
+init_shader_variables	main-zzzzzzz.cpp	/^void init_shader_variables()$/
+init_shader_variables	main-zzzzzzz.cpp	/^void init_shader_variables()$/
+initialize	main-afterLighting.cpp	/^bool initialize()$/
+initialize	main-backup.cpp	/^bool initialize()$/
+initialize	main-backup2.cpp	/^bool initialize()$/
+initialize	main-beforeLighting.cpp	/^bool initialize()$/
+initialize	main-colorful.cpp	/^bool initialize()$/
+initialize	main-zzzzzzz.cpp	/^bool initialize()$/
+initialize	main.cpp	/^bool initialize()$/
+is_game_complete	j7.cpp	/^bool is_game_complete(btRigidBody* body) $/
+keyDown	j7.cpp	/^void keyDown(unsigned char key, int x, int y)$/
+keySpecialDown	j7.cpp	/^void keySpecialDown(int key, int x, int y)$/
+keySpecialDown	main.cpp	/^void keySpecialDown(int key, int x, int y )$/
+keySpecialUp	j7.cpp	/^void keySpecialUp(int key, int x, int y)$/
+keyUp	j7.cpp	/^void keyUp(unsigned char key, int x, int y)$/
+keyboard	main-afterLighting.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main-backup.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main-backup2.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main-beforeLighting.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main-colorful.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main-zzzzzzz.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyboard	main.cpp	/^void keyboard(unsigned char key, int x_pos, int y_/
+keyup	main-afterLighting.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main-backup.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main-backup2.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main-beforeLighting.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main-colorful.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main-zzzzzzz.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+keyup	main.cpp	/^void keyup(unsigned char key, int x_pos, int y_pos/
+lightHandle1	main-backup2.cpp	45
+lightHandle1	main-beforeLighting.cpp	47
+lightoff	j7.cpp	202
+lightoffset_x	j7.cpp	203
+lightoffset_y	j7.cpp	204
+lightoffset_z	j7.cpp	205
+listOfWalls	main-afterLighting.cpp	97
+listOfWalls	main-beforeLighting.cpp	78
+listOfWalls	main-colorful.cpp	98
+listOfWalls	main-zzzzzzz.cpp	104
+listOfWalls	main.cpp	103
+loadDragonFile	main-afterLighting.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main-backup.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main-backup2.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main-beforeLighting.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main-colorful.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main-zzzzzzz.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadDragonFile	main.cpp	/^bool loadDragonFile( const string& fileName )$/
+loadOBJ	loadOBJ.cpp	/^bool loadOBJ(   const char * path, $/
+loc_AmbientProduct	main-afterLighting.cpp	70
+loc_AmbientProduct	main-colorful.cpp	71
+loc_AmbientProduct	main.cpp	70
+loc_BaseAI	main-zzzzzzz.cpp	62
+loc_BaseColor	main-zzzzzzz.cpp	61
+loc_BaseDI	main-zzzzzzz.cpp	64
+loc_DiffuseProduct	main-afterLighting.cpp	71
+loc_DiffuseProduct	main-colorful.cpp	72
+loc_DiffuseProduct	main.cpp	71
+loc_Direction	main-zzzzzzz.cpp	63
+loc_LightCutOff	main.cpp	76
+loc_LightPosition	main-afterLighting.cpp	69
+loc_LightPosition	main-colorful.cpp	70
+loc_LightPosition	main.cpp	69
+loc_Sampler	main-afterLighting.cpp	74
+loc_Sampler	main-colorful.cpp	75
+loc_Sampler	main.cpp	74
+loc_Shineness	main-afterLighting.cpp	73
+loc_Shineness	main-colorful.cpp	74
+loc_Shineness	main.cpp	73
+loc_SpecInt	main-zzzzzzz.cpp	65
+loc_SpecPower	main-zzzzzzz.cpp	66
+loc_SpecularProduct	main-afterLighting.cpp	72
+loc_SpecularProduct	main-colorful.cpp	73
+loc_SpecularProduct	main.cpp	72
+loc_SpotDirection	main.cpp	75
+loc_color	main-afterLighting.cpp	59
+loc_color	main-backup.cpp	41
+loc_color	main-backup2.cpp	52
+loc_color	main-beforeLighting.cpp	57
+loc_color	main-colorful.cpp	59
+loc_color	main-zzzzzzz.cpp	71
+loc_color	main.cpp	58
+loc_color2	main-colorful.cpp	67
+loc_color2	main.cpp	66
+loc_eyeWorldPos	main-zzzzzzz.cpp	60
+loc_mvpmat	main-backup.cpp	37
+loc_mvpmat	main-backup2.cpp	48
+loc_normal	main-afterLighting.cpp	58
+loc_normal	main-beforeLighting.cpp	56
+loc_normal	main-colorful.cpp	58
+loc_normal	main-zzzzzzz.cpp	70
+loc_normal	main.cpp	57
+loc_normal2	main-afterLighting.cpp	66
+loc_normal2	main-colorful.cpp	66
+loc_normal2	main.cpp	65
+loc_numLights	main-zzzzzzz.cpp	58
+loc_position	main-afterLighting.cpp	57
+loc_position	main-backup.cpp	40
+loc_position	main-backup2.cpp	51
+loc_position	main-beforeLighting.cpp	55
+loc_position	main-colorful.cpp	57
+loc_position	main-zzzzzzz.cpp	69
+loc_position	main.cpp	56
+loc_position2	main-afterLighting.cpp	65
+loc_position2	main-colorful.cpp	65
+loc_position2	main.cpp	64
+loc_sampler	main-zzzzzzz.cpp	59
+loc_tex	main-afterLighting.cpp	67
+loc_tex	main-colorful.cpp	68
+loc_tex	main.cpp	67
+look_eyepos	j7.cpp	173
+max_coords	j7.cpp	165
+menu	j7.cpp	/^void menu(int id){$/
+menu	main-afterLighting.cpp	/^void menu( int id )$/
+menu	main-backup.cpp	/^void menu( int id )$/
+menu	main-backup2.cpp	/^void menu( int id )$/
+menu	main-beforeLighting.cpp	/^void menu( int id )$/
+menu	main-colorful.cpp	/^void menu( int id )$/
+menu	main-zzzzzzz.cpp	/^void menu( int id )$/
+menu	main.cpp	/^void menu( int id )$/
+mouseMove	main-afterLighting.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main-backup.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main-backup2.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main-beforeLighting.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main-colorful.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main-zzzzzzz.cpp	/^void mouseMove( int x, int y )$/
+mouseMove	main.cpp	/^void mouseMove( int x, int y )$/
+mouseWheel	main.cpp	/^void mouseWheel(int button, int state, int x, int /
+mvp	main-backup.cpp	69
+mvp2	main-backup.cpp	70
+mvp3	main-backup.cpp	71
+mvpBall	main-afterLighting.cpp	111
+mvpBall	main-backup2.cpp	81
+mvpBall	main-beforeLighting.cpp	91
+mvpBall	main-colorful.cpp	112
+mvpBall	main-zzzzzzz.cpp	122
+mvpBall	main.cpp	116
+mvpDragon	main-afterLighting.cpp	115
+mvpDragon	main-backup.cpp	74
+mvpDragon	main-backup2.cpp	85
+mvpDragon	main-beforeLighting.cpp	95
+mvpDragon	main-colorful.cpp	116
+mvpDragon	main-zzzzzzz.cpp	126
+mvpDragon	main.cpp	119
+mvpFinish	main-afterLighting.cpp	114
+mvpFinish	main-backup.cpp	73
+mvpFinish	main-backup2.cpp	84
+mvpFinish	main-beforeLighting.cpp	94
+mvpFinish	main-colorful.cpp	115
+mvpFinish	main-zzzzzzz.cpp	125
+mvpFloor	main-afterLighting.cpp	112
+mvpFloor	main-backup2.cpp	82
+mvpFloor	main-beforeLighting.cpp	92
+mvpFloor	main-colorful.cpp	113
+mvpFloor	main-zzzzzzz.cpp	123
+mvpFloor	main.cpp	117
+mvpStart	main-afterLighting.cpp	113
+mvpStart	main-backup.cpp	72
+mvpStart	main-backup2.cpp	83
+mvpStart	main-beforeLighting.cpp	93
+mvpStart	main-colorful.cpp	114
+mvpStart	main-zzzzzzz.cpp	124
+mvpStart	main.cpp	118
+mvpWall	main-afterLighting.cpp	110
+mvpWall	main-backup2.cpp	80
+mvpWall	main-beforeLighting.cpp	90
+mvpWall	main-colorful.cpp	111
+mvpWall	main-zzzzzzz.cpp	121
+mvpWall	main.cpp	115
+n	j7.cpp	171
+nbo_Floor	main-afterLighting.cpp	45
+nbo_Floor	main-backup2.cpp	42
+nbo_Floor	main-beforeLighting.cpp	43
+nbo_Floor	main-colorful.cpp	45
+nbo_Floor	main-zzzzzzz.cpp	45
+nbo_Floor	main.cpp	42
+objectList	main-zzzzzzz.cpp	106
+objs	j7.cpp	184
+objs	main-afterLighting.cpp	98
+objs	main-colorful.cpp	99
+objs	main.cpp	104
+oglMatrixToGLMMatrix4x4	j7.cpp	/^glm::mat4 oglMatrixToGLMMatrix4x4(btScalar* m)$/
+oldMouse	main-afterLighting.cpp	91
+oldMouse	main-backup.cpp	56
+oldMouse	main-backup2.cpp	67
+oldMouse	main-beforeLighting.cpp	72
+oldMouse	main-colorful.cpp	92
+oldMouse	main-zzzzzzz.cpp	88
+oldMouse	main.cpp	97
+oldXAngle	main-afterLighting.cpp	86
+oldXAngle	main-backup.cpp	51
+oldXAngle	main-backup2.cpp	62
+oldXAngle	main-beforeLighting.cpp	67
+oldXAngle	main-colorful.cpp	87
+oldXAngle	main-zzzzzzz.cpp	81
+oldXAngle	main.cpp	89
+operator	math_3d.h	90
+operator	math_3d.h	/^inline Vector3f operator*(const Vector3f& l, float/
+operator*	math_3d.cpp	/^Quaternion operator*(const Quaternion& l, const Qu/
+operator*	math_3d.cpp	/^Quaternion operator*(const Quaternion& q, const Ve/
+operator<<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const g/
+operator<<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const a/
+operator<<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const b/
+operator<<	j7.cpp	/^std::ostream& operator<<(std::ostream& os, const g/
+pball	j7.cpp	163
+pboard	j7.cpp	164
+perspective_far	j7.cpp	170
+perspective_near	j7.cpp	169
+printLightPos	j7.cpp	/^void printLightPos() $/
+print_opengl_version	j7.cpp	/^void print_opengl_version()$/
+processDragon	main-afterLighting.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main-backup.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main-backup2.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main-beforeLighting.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main-colorful.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main-zzzzzzz.cpp	/^void  processDragon( const aiScene* scene )$/
+processDragon	main.cpp	/^void  processDragon( const aiScene* scene )$/
+program	main-afterLighting.cpp	31
+program	main-backup.cpp	28
+program	main-backup2.cpp	29
+program	main-beforeLighting.cpp	30
+program	main-colorful.cpp	31
+program	main-zzzzzzz.cpp	32
+program	main.cpp	29
+program2	main-afterLighting.cpp	32
+program2	main-colorful.cpp	32
+program2	main.cpp	30
+projection	main-afterLighting.cpp	109
+projection	main-backup.cpp	68
+projection	main-backup2.cpp	79
+projection	main-beforeLighting.cpp	89
+projection	main-colorful.cpp	110
+projection	main-zzzzzzz.cpp	119
+projection	main.cpp	114
+puckSpeed	main.cpp	93
+puckVel	main.cpp	94
+puck_fname	j7.cpp	142
+rangle	j7.cpp	160
+readShaderSource	InitShader.cpp	/^readShaderSource(const char* shaderFile)$/
+render	main-afterLighting.cpp	/^void render()$/
+render	main-backup.cpp	/^void render()$/
+render	main-backup2.cpp	/^void render()$/
+render	main-beforeLighting.cpp	/^void render()$/
+render	main-colorful.cpp	/^void render()$/
+render	main-zzzzzzz.cpp	/^void render()$/
+render	main.cpp	/^void render()$/
+reshape	j7.cpp	/^void reshape(int w, int h)$/
+reshape	main-afterLighting.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main-backup.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main-backup2.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main-beforeLighting.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main-colorful.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main-zzzzzzz.cpp	/^void reshape(int n_w, int n_h)$/
+reshape	main.cpp	/^void reshape(int n_w, int n_h)$/
+rotateBody	j7.cpp	/^  void rotateBody(const btScalar& yaw, const btSca/
+rotation	j7.cpp	215
+rotationAngle	j7.cpp	134
+rotationFactor	j7.cpp	212
+rotationHorizontal	j7.cpp	214
+setupWalls	main-afterLighting.cpp	/^void setupWalls(){$/
+setupWalls	main-beforeLighting.cpp	/^void setupWalls(){$/
+setupWalls	main-colorful.cpp	/^void setupWalls(){$/
+setupWalls	main-zzzzzzz.cpp	/^void setupWalls(){$/
+setupWalls	main.cpp	/^void setupWalls(){$/
+showPos	main-afterLighting.cpp	88
+showPos	main-backup.cpp	53
+showPos	main-backup2.cpp	64
+showPos	main-beforeLighting.cpp	69
+showPos	main-colorful.cpp	89
+showPos	main-zzzzzzz.cpp	83
+showPos	main.cpp	91
+t1	j7.cpp	166
+t1	main-afterLighting.cpp	131
+t1	main-backup.cpp	90
+t1	main-backup2.cpp	101
+t1	main-beforeLighting.cpp	111
+t1	main-colorful.cpp	132
+t1	main-zzzzzzz.cpp	142
+t1	main.cpp	137
+t2	j7.cpp	166
+t2	main-afterLighting.cpp	131
+t2	main-backup.cpp	90
+t2	main-backup2.cpp	101
+t2	main-beforeLighting.cpp	111
+t2	main-colorful.cpp	132
+t2	main-zzzzzzz.cpp	142
+t2	main.cpp	137
+table_fname	j7.cpp	141
+tex1	j7.cpp	217
+tex1	main-zzzzzzz.cpp	49
+tex2	j7.cpp	218
+tex2	main-zzzzzzz.cpp	50
+textFileRead	main-afterLighting.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main-backup.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main-backup2.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main-beforeLighting.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main-colorful.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main-zzzzzzz.cpp	/^char *textFileRead( const char *fn ) {$/
+textFileRead	main.cpp	/^char *textFileRead( const char *fn ) {$/
+update	main-afterLighting.cpp	/^void update()$/
+update	main-backup.cpp	/^void update()$/
+update	main-backup2.cpp	/^void update()$/
+update	main-beforeLighting.cpp	/^void update()$/
+update	main-colorful.cpp	/^void update()$/
+update	main-zzzzzzz.cpp	/^void update()$/
+update	main.cpp	/^void update()$/
+vbo_Dragon	main-afterLighting.cpp	40
+vbo_Dragon	main-backup2.cpp	37
+vbo_Dragon	main-beforeLighting.cpp	38
+vbo_Dragon	main-colorful.cpp	40
+vbo_Dragon	main-zzzzzzz.cpp	40
+vbo_Dragon	main.cpp	37
+vbo_Finish	main-afterLighting.cpp	39
+vbo_Finish	main-backup2.cpp	36
+vbo_Finish	main-beforeLighting.cpp	37
+vbo_Finish	main-colorful.cpp	39
+vbo_Finish	main-zzzzzzz.cpp	39
+vbo_Floor	main-afterLighting.cpp	37
+vbo_Floor	main-backup2.cpp	34
+vbo_Floor	main-beforeLighting.cpp	35
+vbo_Floor	main-colorful.cpp	37
+vbo_Floor	main-zzzzzzz.cpp	37
+vbo_Floor	main.cpp	35
+vbo_Sphere	main-afterLighting.cpp	36
+vbo_Sphere	main-backup2.cpp	33
+vbo_Sphere	main-beforeLighting.cpp	34
+vbo_Sphere	main-colorful.cpp	36
+vbo_Sphere	main-zzzzzzz.cpp	36
+vbo_Sphere	main.cpp	34
+vbo_Start	main-afterLighting.cpp	38
+vbo_Start	main-backup2.cpp	35
+vbo_Start	main-beforeLighting.cpp	36
+vbo_Start	main-colorful.cpp	38
+vbo_Start	main-zzzzzzz.cpp	38
+vbo_Start	main.cpp	36
+vbo_Wall	main-afterLighting.cpp	35
+vbo_Wall	main-backup2.cpp	32
+vbo_Wall	main-beforeLighting.cpp	33
+vbo_Wall	main-colorful.cpp	35
+vbo_Wall	main-zzzzzzz.cpp	35
+vbo_Wall	main.cpp	33
+vbo_geometry	main-backup.cpp	29
+vbo_geometry2	main-backup.cpp	30
+vbo_geometry3	main-backup.cpp	31
+vbo_geometryDragon	main-backup.cpp	34
+vbo_geometryFinish	main-backup.cpp	33
+vbo_geometryStart	main-backup.cpp	32
+view	j7.cpp	153
+view	main-afterLighting.cpp	108
+view	main-backup.cpp	67
+view	main-backup2.cpp	78
+view	main-beforeLighting.cpp	88
+view	main-colorful.cpp	109
+view	main-zzzzzzz.cpp	118
+view	main.cpp	113
+w	j7.cpp	161
+w	main-afterLighting.cpp	29
+w	main-backup.cpp	27
+w	main-backup2.cpp	27
+w	main-beforeLighting.cpp	28
+w	main-colorful.cpp	29
+w	main-zzzzzzz.cpp	30
+w	main.cpp	27
+won	main-afterLighting.cpp	94
+won	main-beforeLighting.cpp	75
+won	main-colorful.cpp	95
+won	main-zzzzzzz.cpp	91
+won	main.cpp	100
+world	main-zzzzzzz.cpp	120
+world_gravity	j7.cpp	175
+x	math_3d.h	34
+x	math_3d.h	40
+x	math_3d.h	57
+xMove	main-afterLighting.cpp	85
+xMove	main-backup.cpp	50
+xMove	main-backup2.cpp	61
+xMove	main-beforeLighting.cpp	66
+xMove	main-colorful.cpp	86
+xMove	main-zzzzzzz.cpp	80
+xMove	main.cpp	88
+y	math_3d.h	35
+y	math_3d.h	41
+y	math_3d.h	58
+yMove	main-afterLighting.cpp	85
+yMove	main-backup.cpp	50
+yMove	main-backup2.cpp	61
+yMove	main-beforeLighting.cpp	66
+yMove	main-colorful.cpp	86
+yMove	main-zzzzzzz.cpp	80
+yMove	main.cpp	88
+z	math_3d.h	59
+zMove	main-afterLighting.cpp	85
+zMove	main-backup.cpp	50
+zMove	main-backup2.cpp	61
+zMove	main-beforeLighting.cpp	66
+zMove	main-colorful.cpp	86
+zMove	main-zzzzzzz.cpp	80
+zMove	main.cpp	88
