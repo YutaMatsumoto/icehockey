@@ -83,6 +83,23 @@ bool set_texture(const char* FileName, GLenum TextureTarget=GL_TEXTURE_2D )
     return (!tex->Load()) ? false : true ;
    }
 
+aiVector3D max_coords() 
+// Return max x,y,z within all the vertices
+{
+
+	aiVector3D max = mesh->mVertices[j];       
+	for(unsigned int i = 0; i < scene->mNumMeshes; i ++) {
+		const aiMesh* mesh = scene->mMeshes[i]; //aiMesh is a struct
+		for(unsigned int j = 0; j < mesh->mNumVertices; j ++) { 
+			aiVector3D t = mesh->mVertices[j];       
+			if (t.x > max.x) max.x = t.x;
+			if (t.y > max.y) max.y = t.y;
+			if (t.z > max.z) max.z = t.z;
+		} 
+	}
+	return max;
+}
+
 // load the object's verts and normals
 void loadObject()
   {
@@ -93,6 +110,8 @@ void loadObject()
     glm::vec3 face;
     glm::vec3 normal;
     glm::vec2 texture;
+		
+		auto maxcoords = max_coords();
     
     cout << "The loader found: " << scene->mNumMeshes << " Meshes!" << endl;
 
@@ -108,7 +127,9 @@ void loadObject()
           vertex.y = temp_vertex.y;
           vertex.z = temp_vertex.z;
           data[j].vertex = vertex;
-          data[j].texture = glm::vec2(vertex.x, vertex.z);  // hackish
+          data[j].texture = glm::vec2(vertex.x/maxcoords.x, vertex.z/maxcoords.z);  // hackish
+					cout << "tex x coord: " << data[j].texture.x << endl;
+					cout << "tex y coord: " << data[j].texture.y << endl;
           // vertices.push_back(vertex);
       } 
 
