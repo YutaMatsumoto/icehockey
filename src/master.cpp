@@ -9,6 +9,8 @@
 #include <assimp/scene.h>           // Output data structure
 #include <assimp/postprocess.h>     // Post processing flags
 
+#include "texture.h"
+
 using namespace std;
 
 struct Point {
@@ -46,12 +48,10 @@ Assimp::Importer importer;
 
 GLuint vbo;
 
-//Texture* tex;
-
-
+Texture* tex;
 
 // constructor
-Master( const char* fName, const char* myName, const char* texName = "myBad.txt" )
+Master( const char* fName, const char* myName, const char* texName/* = "myBad.txt"*/)
    {
     // grab variables
     fileName = fName;
@@ -71,22 +71,17 @@ Master( const char* fName, const char* myName, const char* texName = "myBad.txt"
     glBufferData(GL_ARRAY_BUFFER, data.size()*sizeof(Point), data.data(), GL_STATIC_DRAW);
     
     // texture 
-/*
     if ( !set_texture(texName) )
        {
         std::cout << texName << " could not be opened." << std::endl;   
        }
-*/
    } 
 
-/*
 bool set_texture(const char* FileName, GLenum TextureTarget=GL_TEXTURE_2D )
    {
     tex = new Texture(GL_TEXTURE_2D, FileName);
     return (!tex->Load()) ? false : true ;
    }
-*/
-
 
 // load the object's verts and normals
 void loadObject()

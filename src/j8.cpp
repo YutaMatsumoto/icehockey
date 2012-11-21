@@ -740,23 +740,23 @@ bool initialize()
     // load the sphere
     const char* ballFile = "obj/puck2.obj";
     const char* ballName = "ball"; 
-    Master ball( ballFile, ballName ); 
+    Master ball( ballFile, ballName, "textures/test.png" ); 
 
     // load the player's paddle
     const char* wallFile = "obj/Paddle.obj"; //"../Meshes/Maze-NoFloor.obj"
     const char* wallName = "paddle"; 
-    const char* wallTex  = "/textures/images.jpg";
+    const char* wallTex  = "textures/images.jpg";
     Master paddle( wallFile, wallName, wallTex ); 
 
     // load the floor
     const char* floorFile = "obj/tableShort.obj"; //"../Meshes/Maze-Floor2.obj"
     const char* floorName = "floor"; 
-    Master floor( floorFile, floorName );
+    Master floor( floorFile, floorName, "textures/test.png" );
 
     // load the other paddle
     const char* startFile = "obj/Paddle.obj";
     const char* startName = "paddle2"; 
-    Master paddle2( startFile, startName ); 
+    Master paddle2( startFile, startName, "textures/test.png" ); 
 
     // push all the objects onto the object vector
     objs.push_back( ball );
