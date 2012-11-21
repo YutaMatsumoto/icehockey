@@ -1,8 +1,12 @@
-* Compilation : ` $ make bin/j7.out ` OR ` $ make`
-* Run : ` $ make run2 `
+* base with bullet
+  * Compilation ` $ make bin/j7.out ` OR ` $ make`
+  * Run : ` $ make run2 `
+* base for textured opengl without bullet
+  * Compile and Run` $ make run8 ` 
 
 # Modifications
 * 11/13 : Changed shaders so that the code compiles in ecc. ECC opengl is old and does not accept new glsl keywords, layout, in, out.
+* 11/20 : created j8.cpp which is based on main.cpp from Andrew. j8.cpp does not have bullet engine anymore unlike j7.cpp.
 
 # Misc
 * OpenGL version
